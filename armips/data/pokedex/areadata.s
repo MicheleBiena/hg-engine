@@ -36980,3 +36980,67 @@ specialareas SPECIES_TERRATOPS, DEX_SPECIAL
 
 routesandcities SPECIES_TERRATOPS, DEX_SPECIAL
     dexendareadata
+
+
+specialareas SPECIES_IGNISOAR, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_IGNISOAR, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_IGNISOAR, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_IGNISOAR, DEX_MORNING
+    dexendareadata
+
+
+routesandcities SPECIES_IGNISOAR, DEX_DAY
+    dexendareadata
+
+
+routesandcities SPECIES_IGNISOAR, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_IGNISOAR, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_IGNISOAR, DEX_SPECIAL
+    dexendareadata
+
+
+specialareas SPECIES_DIPPLASH, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_DIPPLASH, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_DIPPLASH, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_DIPPLASH, DEX_MORNING
+    dexendareadata
+
+
+routesandcities SPECIES_DIPPLASH, DEX_DAY
+    dexendareadata
+
+
+routesandcities SPECIES_DIPPLASH, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_DIPPLASH, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_DIPPLASH, DEX_SPECIAL
+    dexendareadata

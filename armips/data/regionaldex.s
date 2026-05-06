@@ -1094,6 +1094,8 @@
 /* SPECIES_TERAPAGOS       */ .halfword 0
 /* SPECIES_PECHARUNT       */ .halfword 0
 /* SPECIES_TERRATOPS       */ .halfword 257
+/* SPECIES_IGNISOAR        */ .halfword 258
+/* SPECIES_DIPPLASH        */ .halfword 259
 
 
 

@@ -1676,6 +1676,8 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1796, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1797, .gfx = 1547, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
     { .tag = 1798, .gfx = 1553, .callback_params = OVERWORLD_SIZE_SMALL}, // terratops
+    { .tag = 1799, .gfx = 1554, .callback_params = OVERWORLD_SIZE_SMALL}, // ignisoar
+    { .tag = 1800, .gfx = 1555, .callback_params = OVERWORLD_SIZE_SMALL}, // dipplash
     { 0xFFFF, 0, 0},
 };
 

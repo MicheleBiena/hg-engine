@@ -9,5 +9,27 @@
     "MachineMoves": [],
     "EggMoves": [],
     "TutorMoves": []
+  },
+  "SPECIES_IGNISOAR": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_EMBER"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
+  },
+  "SPECIES_DIPPLASH": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_WATER_GUN"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
   }
 }

@@ -22631,6 +22631,48 @@ mondata SPECIES_TERRATOPS, "Terratops"
     mondexweight SPECIES_TERRATOPS, "126.0 lbs."
 
 
+mondata SPECIES_IGNISOAR, "Ignisoar"
+    basestats 39, 52, 43, 65, 60, 50
+    types TYPE_FIRE, TYPE_FIRE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    mondexentry SPECIES_IGNISOAR, "A fiery Pokémon that lives in\nvolcanic regions. It breathes\nintense flames to protect its territory."
+    mondexclassification SPECIES_IGNISOAR, "Skull Pokémon"
+    mondexheight SPECIES_IGNISOAR, "2’00”"
+    mondexweight SPECIES_IGNISOAR, "39.7 lbs."
+
+
+mondata SPECIES_DIPPLASH, "Dipplash"
+    basestats 50, 48, 43, 55, 65, 64
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    mondexentry SPECIES_DIPPLASH, "It creates water balloons with its\ntail to play with others. It gets\nlonely if it has no companions."
+    mondexclassification SPECIES_DIPPLASH, "Swift Pokémon"
+    mondexheight SPECIES_DIPPLASH, "1’08”"
+    mondexweight SPECIES_DIPPLASH, "18.3 lbs."
+
+
 mondata SPECIES_MEGA_VENUSAUR, "-----"
     basestats 80, 100, 123, 80, 122, 120
     types TYPE_GRASS, TYPE_POISON

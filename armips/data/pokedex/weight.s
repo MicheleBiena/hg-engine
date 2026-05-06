@@ -1083,6 +1083,8 @@
 /* SPECIES_TERAPAGOS                         */ .word 65 // Normal Form
 /* SPECIES_PECHARUNT                         */ .word 3
 /* SPECIES_TERRATOPS                         */ .word 571
+/* SPECIES_IGNISOAR                          */ .word 181
+/* SPECIES_DIPPLASH                          */ .word 83
 
 /* SPECIES_MEGA_VENUSAUR                     */ .word 1555
 /* SPECIES_MEGA_CHARIZARD_X                  */ .word 1105

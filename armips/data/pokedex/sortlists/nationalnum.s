@@ -1029,6 +1029,8 @@
 .halfword SPECIES_TERAPAGOS
 .halfword SPECIES_PECHARUNT
 .halfword SPECIES_TERRATOPS
+.halfword SPECIES_IGNISOAR
+.halfword SPECIES_DIPPLASH
 
 
 .close
