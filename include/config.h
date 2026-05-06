@@ -55,7 +55,7 @@
 
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
-//#define IMPLEMENT_TRANSPARENT_TEXTBOXES
+#define IMPLEMENT_TRANSPARENT_TEXTBOXES
 
 // IMPLEMENT_WILD_DOUBLE_BATTLES defines whether or not grass tiles will have a 10% chance of starting a wild double battle
 // commenting this line out disables wild double battles entirely
@@ -160,7 +160,7 @@
 #define REUSABLE_TMS
 
 // DELETABLE_HMS allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
-//#define DELETABLE_HMS
+#define DELETABLE_HMS
 
 // MART_EXPANSION allows for adding and modifying items to the mart inventories
 #define MART_EXPANSION
