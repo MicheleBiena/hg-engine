@@ -1104,6 +1104,7 @@ gIconPalTable:
 /* SPECIES_IRON_CROWN      */ .byte  0x0
 /* SPECIES_TERAPAGOS       */ .byte  0x0
 /* SPECIES_PECHARUNT       */ .byte  0x0
+/* SPECIES_TERRATOPS       */ .byte  0x1
 
 /* SPECIES_MEGA_VENUSAUR   */ .byte  0x1
 /* SPECIES_MEGA_CHARIZARD_X*/ .byte  0x0

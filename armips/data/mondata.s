@@ -22610,6 +22610,27 @@ mondata SPECIES_PECHARUNT, "Pecharunt"
     mondexweight SPECIES_PECHARUNT, "0.7 lbs."
 
 
+mondata SPECIES_TERRATOPS, "Terratops"
+    basestats 55, 68, 64, 45, 55, 31
+    types TYPE_GRASS, TYPE_GRASS
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_MONSTER
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    mondexentry SPECIES_TERRATOPS, "Early settlers fed Terratops\nto earn its trust and used\nits territorial nature for defense."
+    mondexclassification SPECIES_TERRATOPS, "Tri-horned Pokémon"
+    mondexheight SPECIES_TERRATOPS, "1’08”"
+    mondexweight SPECIES_TERRATOPS, "126.0 lbs."
+
+
 mondata SPECIES_MEGA_VENUSAUR, "-----"
     basestats 80, 100, 123, 80, 122, 120
     types TYPE_GRASS, TYPE_POISON

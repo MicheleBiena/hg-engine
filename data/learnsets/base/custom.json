@@ -1,1 +1,13 @@
-{}
+{
+  "SPECIES_TERRATOPS": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_LEAFAGE"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
+  }
+}
