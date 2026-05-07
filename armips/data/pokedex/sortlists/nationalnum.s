@@ -1031,6 +1031,7 @@
 .halfword SPECIES_TERRATOPS
 .halfword SPECIES_IGNISOAR
 .halfword SPECIES_DIPPLASH
+.halfword SPECIES_SINFAE
 
 
 .close

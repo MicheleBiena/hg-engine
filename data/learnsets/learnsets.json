@@ -162334,6 +162334,17 @@
     "EggMoves": [],
     "TutorMoves": []
   },
+  "SPECIES_SINFAE": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_CONFUSION"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
+  },
   "SPECIES_BASCULIN_WHITE_STRIPED": {
     "LevelMoves": [
       {

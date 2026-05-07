@@ -1036,6 +1036,7 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_TERRATOPS                   ] = ABILITY_NONE,
     [SPECIES_IGNISOAR                    ] = ABILITY_NONE,
     [SPECIES_DIPPLASH                    ] = ABILITY_NONE,
+    [SPECIES_SINFAE                      ] = ABILITY_NONE,
     [SPECIES_MEGA_VENUSAUR               ] = ABILITY_NONE,
     [SPECIES_MEGA_CHARIZARD_X            ] = ABILITY_NONE,
     [SPECIES_MEGA_CHARIZARD_Y            ] = ABILITY_NONE,

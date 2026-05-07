@@ -1085,4 +1085,5 @@ const u16 UNUSED sSpeciesToOWGfx[] =
     [SPECIES_TERRATOPS          ] = 1314,
     [SPECIES_IGNISOAR           ] = 1315,
     [SPECIES_DIPPLASH           ] = 1316,
+    [SPECIES_SINFAE             ] = 1317,
 };

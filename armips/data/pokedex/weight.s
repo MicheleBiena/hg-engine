@@ -1085,6 +1085,7 @@
 /* SPECIES_TERRATOPS                         */ .word 571
 /* SPECIES_IGNISOAR                          */ .word 181
 /* SPECIES_DIPPLASH                          */ .word 83
+/* SPECIES_SINFAE                            */ .word 3
 
 /* SPECIES_MEGA_VENUSAUR                     */ .word 1555
 /* SPECIES_MEGA_CHARIZARD_X                  */ .word 1105

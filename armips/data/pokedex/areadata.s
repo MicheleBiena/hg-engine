@@ -37044,3 +37044,35 @@ specialareas SPECIES_DIPPLASH, DEX_SPECIAL
 
 routesandcities SPECIES_DIPPLASH, DEX_SPECIAL
     dexendareadata
+
+
+specialareas SPECIES_SINFAE, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_SINFAE, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_SINFAE, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_SINFAE, DEX_MORNING
+    dexendareadata
+
+
+routesandcities SPECIES_SINFAE, DEX_DAY
+    dexendareadata
+
+
+routesandcities SPECIES_SINFAE, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_SINFAE, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_SINFAE, DEX_SPECIAL
+    dexendareadata

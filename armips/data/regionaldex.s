@@ -1096,7 +1096,7 @@
 /* SPECIES_TERRATOPS       */ .halfword 257
 /* SPECIES_IGNISOAR        */ .halfword 258
 /* SPECIES_DIPPLASH        */ .halfword 259
-
+/* SPECIES_SINFAE          */ .halfword 260
 
 
 

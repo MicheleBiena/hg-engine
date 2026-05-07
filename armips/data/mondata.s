@@ -22673,6 +22673,27 @@ mondata SPECIES_DIPPLASH, "Dipplash"
     mondexweight SPECIES_DIPPLASH, "18.3 lbs."
 
 
+mondata SPECIES_SINFAE, "Sinfae"
+    basestats 80, 105, 105, 105, 105, 105
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 1, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 80
+    basefriendship 140
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_LEVITATE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    mondexentry SPECIES_SINFAE, "The secret fourth lake guardian,\nSinfae was banished, earning the\ntitle of First Shadow Pokémon."
+    mondexclassification SPECIES_SINFAE, "Fear Pokémon"
+    mondexheight SPECIES_SINFAE, "1'00”"
+    mondexweight SPECIES_SINFAE, "0.7 lbs."
+
+
 mondata SPECIES_MEGA_VENUSAUR, "-----"
     basestats 80, 100, 123, 80, 122, 120
     types TYPE_GRASS, TYPE_POISON

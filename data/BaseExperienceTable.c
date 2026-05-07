@@ -1034,6 +1034,7 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_TERRATOPS                   ] = 64,
     [SPECIES_IGNISOAR                    ] = 0,
     [SPECIES_DIPPLASH                    ] = 0,
+    [SPECIES_SINFAE                      ] = 0,
     [SPECIES_MEGA_VENUSAUR               ] = 313,
     [SPECIES_MEGA_CHARIZARD_X            ] = 317,
     [SPECIES_MEGA_CHARIZARD_Y            ] = 317,

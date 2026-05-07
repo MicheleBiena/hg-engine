@@ -31,5 +31,16 @@
     "MachineMoves": [],
     "EggMoves": [],
     "TutorMoves": []
+  },
+  "SPECIES_SINFAE": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_CONFUSION"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
   }
 }
