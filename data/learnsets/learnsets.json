@@ -165068,5 +165068,28 @@
     ],
     "EggMoves": ["MOVE_MOONLIGHT"],
     "TutorMoves": []
+  },
+  "SPECIES_KECLEON_ALT": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_SHADOW_FORCE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_EXTREME_SPEED"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_JUDGMENT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SPACIAL_REND"
+      }
+    ],
+    "MachineMoves": [],
+    "EggMoves": [],
+    "TutorMoves": []
   }
 }

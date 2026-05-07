@@ -1679,6 +1679,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1799, .gfx = 1554, .callback_params = OVERWORLD_SIZE_SMALL}, // ignisoar
     { .tag = 1800, .gfx = 1555, .callback_params = OVERWORLD_SIZE_SMALL}, // dipplash
     { .tag = 1801, .gfx = 1556, .callback_params = OVERWORLD_SIZE_SMALL}, // sinfae
+    { .tag = 1802, .gfx = 1557, .callback_params = OVERWORLD_SIZE_SMALL}, // kecleon_alt
     { 0xFFFF, 0, 0},
 };
 

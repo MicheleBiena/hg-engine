@@ -137,18 +137,18 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_PIDGEY
 
 // day encounter slots
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
-pokemon SPECIES_SINFAE
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_CASTFORM, 1
+monwithform SPECIES_KECLEON, 1
+monwithform SPECIES_KECLEON, 1
+monwithform SPECIES_KECLEON, 1
+monwithform SPECIES_KECLEON, 1
+monwithform SPECIES_KECLEON, 1
+monwithform SPECIES_KECLEON, 1
 
 // night encounter slots
 pokemon SPECIES_HOOTHOOT

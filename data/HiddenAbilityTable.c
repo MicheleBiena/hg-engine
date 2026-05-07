@@ -1353,4 +1353,6 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_TERAPAGOS_TERASTAL          ] = ABILITY_NONE,
     [SPECIES_TERAPAGOS_STELLAR           ] = ABILITY_NONE,
     [SPECIES_URSALUNA_BLOODMOON          ] = ABILITY_NONE,
+    [SPECIES_SINFAE_SHADOW               ] = ABILITY_NONE,
+    [SPECIES_KECLEON_ALT                 ] = ABILITY_NONE,
 };

@@ -27765,3 +27765,35 @@ mondata SPECIES_TERAPAGOS_STELLAR, "-----"
     abilities ABILITY_TERAFORM_ZERO, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
+
+mondata SPECIES_SINFAE_SHADOW, "-----"
+    basestats 80, 105, 105, 105, 105, 105
+    types TYPE_DARK, TYPE_PSYCHIC
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 3, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 80
+    basefriendship 140
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_LEVITATE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+
+mondata SPECIES_KECLEON_ALT, "-----"
+    basestats 255, 255, 255, 255, 255, 255
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_PROTEAN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
