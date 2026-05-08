@@ -162339,6 +162339,10 @@
       {
         "Level": 1,
         "Move": "MOVE_CONFUSION"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TAIL_WHIP"
       }
     ],
     "MachineMoves": [],

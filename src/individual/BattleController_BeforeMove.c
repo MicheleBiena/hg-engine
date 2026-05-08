@@ -84,6 +84,7 @@ void BattleController_CheckConfusion(struct BattleSystem *bsys, struct BattleStr
 void BattleController_CheckParalysis(struct BattleSystem *bsys, struct BattleStruct *ctx);
 void BattleController_CheckInfatuation(struct BattleSystem *bsys, struct BattleStruct *ctx);
 void BattleController_CheckStanceChange(struct BattleSystem *bsys, struct BattleStruct *ctx);
+void BattleController_CheckSinfaeChange(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BattlerController_RedirectTarget(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BattlerController_DecrementPP(struct BattleSystem *bsys, struct BattleStruct *ctx);
 void BattleController_CheckThawOut(struct BattleSystem *bsys UNUSED, struct BattleStruct *ctx);
@@ -471,6 +472,15 @@ void __attribute__((section (".init"))) BattleController_BeforeMove(struct Battl
 #endif
 
             BattleController_CheckStanceChange(bsys, ctx);
+            ctx->wb_seq_no++;
+            return;
+        }
+        case BEFORE_MOVE_STATE_SINFAE_CHANGE: {
+#ifdef DEBUG_BEFORE_MOVE_LOGIC
+            debug_printf("In BEFORE_MOVE_STATE_SINFAE_CHANGE\n");
+#endif
+
+            BattleController_CheckSinfaeChange(bsys, ctx);
             ctx->wb_seq_no++;
             return;
         }
@@ -1504,6 +1514,26 @@ void BattleController_CheckStanceChange(struct BattleSystem *bsys, struct Battle
         }
     }
 }
+
+void BattleController_CheckSinfaeChange(struct BattleSystem *bsys, struct BattleStruct *ctx) {
+    if (ctx->battlemon[ctx->attack_client].species == SPECIES_SINFAE) {
+        ctx->battlerIdTemp = ctx->attack_client;
+        if(ctx->current_move_index == MOVE_TAIL_WHIP && ctx->battlemon[ctx->attack_client].form_no == 1) {
+            ctx->battlemon[ctx->battlerIdTemp].form_no = 0;
+            BattleFormChange(ctx->battlerIdTemp, ctx->battlemon[ctx->battlerIdTemp].form_no, bsys, ctx, 0);
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORM_CHANGE);
+            ctx->next_server_seq_no = ctx->server_seq_no;
+            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+        } else if(ctx->current_move_index == MOVE_TAIL_WHIP && ctx->battlemon[ctx->attack_client].form_no == 0) {
+            ctx->battlemon[ctx->battlerIdTemp].form_no = 1;
+            BattleFormChange(ctx->battlerIdTemp, ctx->battlemon[ctx->battlerIdTemp].form_no, bsys, ctx, 0);
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORM_CHANGE);
+            ctx->next_server_seq_no = ctx->server_seq_no;
+            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+        }
+    }
+}
+
 
 
 void CheckDragonDartsDiverting(struct BattleSystem* bsys, struct BattleStruct* ctx, int defender)
