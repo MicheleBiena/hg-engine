@@ -161,6 +161,11 @@
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
 #define REUSABLE_TMS
 
+// IMPLEMENT_PORTABLE_PC enables pressing L in the overworld to open the PC
+// when FLAG_PORTA_PC_AVAILABLE is set.
+#define IMPLEMENT_PORTABLE_PC
+#define FLAG_PORTA_PC_AVAILABLE 399
+
 // DELETABLE_HMS allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
 #define DELETABLE_HMS
 

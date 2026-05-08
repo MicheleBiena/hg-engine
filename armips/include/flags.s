@@ -410,7 +410,7 @@ FLAG_BEAT_OR_ESCAPED_FROM_GROUDON_OR_KYOGRE                equ 395
 FLAG_UNK_18C                                               equ 396
 FLAG_UNK_18D                                               equ 397
 FLAG_UNK_18E                                               equ 398
-FLAG_UNK_18F                                               equ 399
+FLAG_PORTA_PC_AVAILABLE                                    equ 399
 
 
 // Hide/show flags
@@ -1340,7 +1340,7 @@ FLAG_HIDE_ITEMBALL_R11_TM86                               equ 1307
 FLAG_HIDE_ITEMBALL_T03_WISE_GLASSES                       equ 1308
 FLAG_HIDE_ITEMBALL_R03_BIG_ROOT                           equ 1309
 FLAG_HIDE_ITEMBALL_T26_TM57                               equ 1310
-FLAG_UNK_51F                                              equ 1311
+FLAG_PC_TRANSIENT                                          equ 1311
 FLAG_UNK_520                                              equ 1312
 FLAG_UNK_521                                              equ 1313
 FLAG_UNK_522                                              equ 1314
