@@ -1175,10 +1175,11 @@ _0A30: // Trainer 249
     trainertextentry 249, TEXT_DEFEATED_IN_OVERWORLD, "I ran out of Poké Balls while I was\ncatching Pokémon.\rI should’ve bought some more...\n"
 
 _0A3C: // Trainer 4
-    trainertextentry   4, TEXT_NOTICE_IN_OVERWORLD, "I caught a bunch of Pokémon.\nLet me battle with you!\r"
-    trainertextentry   4, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
-    trainertextentry   4, TEXT_DEFEATED_IN_OVERWORLD, "You can catch Pokémon even if you have\nsix with you.\rIf you catch one, it’ll go to your Box\nautomatically.\n"
-    trainertextentry   4, TEXT_REMATCH_IN_OVERWORLD, "I was waiting for you. Let’s battle!\r"
+    trainertextentry   4, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Whoa! Are you a real Pokémon Trainer?!\nLet's battle!\r"
+    trainertextentry   4, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Pooch! Yena!\r"
+    trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Awwwww...\n"
+    trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "You can catch Pokémon even if you have\nsix with you.\rIf you catch one, it’ll go to your Box\nautomatically.\n"
+    trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Pooch! Yena!\r"
 
 _0A4C: // Trainer 383
     trainertextentry 383, TEXT_NOTICE_IN_OVERWORLD, "That Badge!\rIt’s from Violet City!\nYou beat Falkner?\r"
