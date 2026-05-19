@@ -138,36 +138,36 @@ trainerdata 4, "Alex"
 
 trainerdata 5, "Victoria"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_BEAUTY
+    trainerclass TRAINERCLASS_LASS
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 5
         // mon 0
-        ivs 10
-        abilityslot 32
-        level 9
-        pokemon SPECIES_SENTRET
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 1
-        ivs 10
-        abilityslot 32
-        level 13
-        pokemon SPECIES_SENTRET
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
-        ivs 10
-        abilityslot 32
-        level 16
-        pokemon SPECIES_SENTRET
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_SWABLU
         ballseal 0
     endparty
 
@@ -237,17 +237,24 @@ trainerdata 7, "Irwin"
 trainerdata 8, "Joey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 8
         // mon 0
+        ivs 0
+        abilityslot 0
+        level 3
+        pokemon SPECIES_PIDGEY
+        ballseal 0
+
+        // mon 1
         ivs 0
         abilityslot 0
         level 4
@@ -255,24 +262,38 @@ trainerdata 8, "Joey"
         ballseal 0
     endparty
 
-trainerdata 9, "Elaine"
+trainerdata 9, "Leo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SWIMMER_F
-    nummons 1
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 9
         // mon 0
         ivs 0
-        abilityslot 32
-        level 21
-        pokemon SPECIES_STARYU
+        abilityslot 0
+        level 7
+        pokemon SPECIES_VENIPEDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_METAPOD
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_KAKUNA
         ballseal 0
     endparty
 

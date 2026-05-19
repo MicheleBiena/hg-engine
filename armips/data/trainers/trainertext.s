@@ -357,10 +357,12 @@ _0274: // Trainer 71
     trainertextentry  71, TEXT_DEFEATED_IN_BATTLE, "Oh, no, no, no!\n"
     trainertextentry  71, TEXT_DEFEATED_IN_OVERWORLD, "I’m training really hard to try to beat\nWhitney, but I’m starting to get\fdiscouraged...\rWhat to do...\nWell... If I lose, I’ll just try harder\fnext time!\n"
 
-_0280: // Trainer 5
-    trainertextentry   5, TEXT_NOTICE_IN_OVERWORLD, "Oh, you are a cute little Trainer!\nI like you, but I won’t hold back!\r"
-    trainertextentry   5, TEXT_DEFEATED_IN_BATTLE, "Let’s see...\nOops, it’s over?\n"
-    trainertextentry   5, TEXT_DEFEATED_IN_OVERWORLD, "Wow, you must be good to beat me!\nKeep it up!\n"
+_0280: // Trainer 5 — Victoria & friend (partner only grunts)
+    trainertextentry   5, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My cute little Pokémon are\nmy pride and joy!\rI train them every day for\nthe Gym challenge!\r"
+    trainertextentry   5, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Oh no! My precious Pokémon...\n"
+    trainertextentry   5, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Cute Pokémon can be strong\ntoo!\rI'll keep believing in\nmy team!\n"
+    trainertextentry   5, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Swablu!\r"
+    trainertextentry   5, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Swablu!\n"
 
 _028C: // Trainer 70
     trainertextentry  70, TEXT_NOTICE_IN_OVERWORLD, "Give it your best shot, or I’ll take\nyou down!\r"
@@ -1158,11 +1160,12 @@ _0A08: // Trainer 412
     trainertextentry 412, TEXT_DEFEATED_IN_BATTLE, "You’re too much!\n"
     trainertextentry 412, TEXT_DEFEATED_IN_OVERWORLD, "With your skills, you’ll do well at the\nPokémon League. That’s what my\fpremonition says.\n"
 
-_0A14: // Trainer 8
-    trainertextentry   8, TEXT_NOTICE_IN_OVERWORLD, "I just lost, so I’m trying to find\nmore Pokémon.\rWait! You look weak! Come on,\nlet’s battle!\r"
-    trainertextentry   8, TEXT_DEFEATED_IN_BATTLE, "Oh...\nI’m out of Pokémon that can fight.\n"
-    trainertextentry   8, TEXT_DEFEATED_IN_OVERWORLD, "I knew it--if you don’t have many\nPokémon, battles are harder!\fI need to catch more Pokémon!\n"
-    trainertextentry   8, TEXT_REMATCH_IN_OVERWORLD, "I’ve been waiting!\nLet’s battle now!\r"
+_0A14: // Trainer 8 — Joey & friend (partner only grunts)
+    trainertextentry   8, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My friend and I are gonna\nbattle you!\rMy Rattata is really tough,\nyou know!\r"
+    trainertextentry   8, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "No way!\nMy top percentage Rattata...\n"
+    trainertextentry   8, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "You're pretty strong...\nBut my Rattata will train\rand get even tougher!\nJust you wait!\n"
+    trainertextentry   8, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Rattata!\r"
+    trainertextentry   8, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Rattata!\n"
 
 _0A24: // Trainer 47
     trainertextentry  47, TEXT_NOTICE_IN_OVERWORLD, "You’re a Pokémon Trainer, right?\nThen you have to battle!\r"
@@ -1179,7 +1182,7 @@ _0A3C: // Trainer 4
     trainertextentry   4, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Pooch! Yena!\r"
     trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Awwwww...\n"
     trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "You can catch Pokémon even if you have\nsix with you.\rIf you catch one, it’ll go to your Box\nautomatically.\n"
-    trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Pooch! Yena!\r"
+    trainertextentry   4, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Pooch! Yena!\n"
 
 _0A4C: // Trainer 383
     trainertextentry 383, TEXT_NOTICE_IN_OVERWORLD, "That Badge!\rIt’s from Violet City!\nYou beat Falkner?\r"
@@ -1409,10 +1412,12 @@ _0C80: // Trainer 86
     trainertextentry  86, TEXT_DEFEATED_IN_BATTLE, "Uh-oh. I lost...\n"
     trainertextentry  86, TEXT_DEFEATED_IN_OVERWORLD, "Swimming exercises your entire body.\nIt’s healthy.\n"
 
-_0C8C: // Trainer 9
-    trainertextentry   9, TEXT_NOTICE_IN_OVERWORLD, "Are you going to Cianwood?\rHow about a quick battle first?\r"
-    trainertextentry   9, TEXT_DEFEATED_IN_BATTLE, "I lost that one!\n"
-    trainertextentry   9, TEXT_DEFEATED_IN_OVERWORLD, "I’d say I’m a better swimmer than you.\nYeah!\n"
+_0C8C: // Trainer 9 — Leo & friend (partner only grunts)
+    trainertextentry   9, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Bug Pokémon evolve super fast!\nThey're the most convenient!\rMine are already getting\nstronger every day!\r"
+    trainertextentry   9, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "No! My Bugs aren't done\nevolving yet!\n"
+    trainertextentry   9, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "It's okay! I'll just catch\nmore Bug Pokémon and train\rharder!\n"
+    trainertextentry   9, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Venipede!\r"
+    trainertextentry   9, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Venipede!\n"
 
 _0C98: // Trainer 85
     trainertextentry  85, TEXT_NOTICE_IN_OVERWORLD, "No inflatable tube for me.\nI’m hanging on to a sea Pokémon!\r"
