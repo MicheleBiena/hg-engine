@@ -530,9 +530,9 @@ _040C: // Trainer 255
     trainertextentry 255, TEXT_DEFEATED_IN_BATTLE, "My electric trick...\n"
 
 _0418: // Trainer 256
-    trainertextentry 256, TEXT_LAST_MON_SENT_OUT, "Don’t go easy on me.\nGive me everything you’ve got!\n"
-    trainertextentry 256, TEXT_LAST_MON_CRITICAL, "Wow, that’s a bit harsh!\n"
-    trainertextentry 256, TEXT_DEFEATED_IN_BATTLE, "Looks like I underestimated you...\n"
+    trainertextentry 256, TEXT_LAST_MON_SENT_OUT, "Carnivine, please show our guest\nthe full bloom of your strength!\n"
+    trainertextentry 256, TEXT_LAST_MON_CRITICAL, "My, even Carnivine is wavering...\n"
+    trainertextentry 256, TEXT_DEFEATED_IN_BATTLE, "Such a wonderful battle...\n"
 
 _0424: // Trainer 257
     trainertextentry 257, TEXT_LAST_MON_SENT_OUT, "You’ve got a great battle technique!\n"
@@ -675,9 +675,14 @@ _0564: // Trainer 326
     trainertextentry 326, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Zoe: I don’t know anyone who has only\none Pokémon!\n"
 
 _0584: // Trainer 356
-    trainertextentry 356, TEXT_NOTICE_IN_OVERWORLD, "There’s no way I can let some unknown\nTrainer go straight to Erika!\r"
-    trainertextentry 356, TEXT_DEFEATED_IN_BATTLE, "Oh, bleah!\n"
-    trainertextentry 356, TEXT_DEFEATED_IN_OVERWORLD, "I’m too ashamed to face Erika!\n"
+    trainertextentry 356, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My flowers and I will not let you\ngo straight to Erika!\r"
+    trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Oh! My little garden wilted...\n"
+    trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Roselia and I need more practice\nbefore we guard Erika again.\n"
+    trainertextentry 356, TEXT_DOUBLE_ONLY_1_POKEMON_1, "A double battle needs two Pokemon.\rCome back with a full pair!\n"
+    trainertextentry 356, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Roselia!\r"
+    trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Rose...lia...\n"
+    trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Roselia!\n"
+    trainertextentry 356, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Roselia...\n"
 
 _0590: // Trainer 336
     trainertextentry 336, TEXT_NOTICE_IN_OVERWORLD, "Do you think a girls-only Gym is rare?\r"
@@ -685,9 +690,14 @@ _0590: // Trainer 336
     trainertextentry 336, TEXT_DEFEATED_IN_OVERWORLD, "Thanks for not going easy on me!\n"
 
 _059C: // Trainer 346
-    trainertextentry 346, TEXT_NOTICE_IN_OVERWORLD, "How can I get you to understand my\nhobby? Which is...\ftalking in a deep voice!\r"
-    trainertextentry 346, TEXT_DEFEATED_IN_BATTLE, "Whoa!\n"
-    trainertextentry 346, TEXT_DEFEATED_IN_OVERWORLD, "The kindness of a woman\nand the strength of a man...\rI want to be a Trainer with both\nthose qualities!\n"
+    trainertextentry 346, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Beauty is easy. Grace in battle\nis the real challenge!\r"
+    trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My beautiful rhythm fell apart!\n"
+    trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Turtwig kept its composure\nbetter than I did.\n"
+    trainertextentry 346, TEXT_DOUBLE_ONLY_1_POKEMON_1, "A double battle needs two Pokemon.\rPlease bring another partner.\n"
+    trainertextentry 346, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Turtwig!\r"
+    trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Tur...twig...\n"
+    trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Turtwig!\n"
+    trainertextentry 346, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Turtwig...\n"
 
 _05A8: // Trainer 84
     trainertextentry  84, TEXT_DEFEATED_IN_BATTLE, "My disguise was awesome!\nGrrr!\n"
@@ -2014,9 +2024,14 @@ _1224: // Trainer 101
     trainertextentry 101, TEXT_DEFEATED_IN_OVERWORLD, "Sure, we’ve been hacking the tails off\nSLOWPOKE and selling them.\rTeam Rocket will do anything for money!\n"
 
 _1230: // Trainer 13
-    trainertextentry  13, TEXT_NOTICE_IN_OVERWORLD, "Stop taking SlowpokeTails?\rWhat?! You want us to disobey a direct\norder from Executive Proton?\rIf you want to stop us, you’ll have to\ndefeat us all! Go ahead and try!\r"
-    trainertextentry  13, TEXT_DEFEATED_IN_BATTLE, "You rotten brat!\n"
-    trainertextentry  13, TEXT_DEFEATED_IN_OVERWORLD, "SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\n"
+    trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My Cubone and I are training\ntogether! Let's see what you can do!\r"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Oh! We still need more practice!\n"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Cubone is tough, but you handled\nour teamwork really well.\n"
+    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_1, "This is a double battle.\rBring two Pokemon and try again!\n"
+    trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Cubone!\r"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Cu...bone...\n"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Cubone!\n"
+    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Cubone...\n"
 
 _123C: // Trainer 73
     trainertextentry  73, TEXT_NOTICE_IN_OVERWORLD, "What are you here for? Just to stand\naround and gawk? I suggest you leave!\r"

@@ -11763,12 +11763,12 @@ pokemon SPECIES_NONE
 encounterdata 113   // Route 3
 
 walkrate 20
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
+surfrate 15
+rocksmashrate 20
+oldrodrate 25
+goodrodrate 50
+superrodrate 75
+walklevels 5, 5, 5, 5, 7, 7, 6, 6, 7, 7, 7, 7
 
 // morning encounter slots
 pokemon SPECIES_SPEAROW
@@ -11821,36 +11821,36 @@ pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WOOPER, 5, 8
+encounter SPECIES_WOOPER, 5, 8
+encounter SPECIES_PSYDUCK, 5, 8
+encounter SPECIES_MARILL, 6, 9
+encounter SPECIES_MARILL, 6, 9
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GEODUDE, 5, 10
+encounter SPECIES_NOSEPASS, 5, 10
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_GOLDEEN, 4, 7
+encounter SPECIES_GOLDEEN, 4, 7
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 10, 16
+encounter SPECIES_GOLDEEN, 10, 16
+encounter SPECIES_POLIWAG, 10, 16
+encounter SPECIES_BARBOACH, 10, 16
+encounter SPECIES_BARBOACH, 10, 16
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 20, 30
+encounter SPECIES_SEAKING, 20, 30
+encounter SPECIES_GYARADOS, 20, 30
+encounter SPECIES_WHISCASH, 20, 30
+encounter SPECIES_CRAWDAUNT, 20, 30
 
 // swarm grass
 pokemon SPECIES_BALTOY
@@ -12283,97 +12283,97 @@ pokemon SPECIES_NONE
 encounterdata 118   // Route 8
 
 walkrate 20
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 17, 19, 17, 19, 15, 15, 18, 18, 17, 15, 17, 15
+surfrate 15
+rocksmashrate 20
+oldrodrate 25
+goodrodrate 50
+superrodrate 75
+walklevels 7, 7, 6, 6, 7, 6, 4, 4, 7, 7, 7, 8
 
 // morning encounter slots
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PONYTA
+pokemon SPECIES_PATRAT
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_BURMY
+pokemon SPECIES_AUDINO
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_BUDEW
+pokemon SPECIES_MILTANK
+pokemon SPECIES_RIOLU
 
 // day encounter slots
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PONYTA
+pokemon SPECIES_PATRAT
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_BURMY
+pokemon SPECIES_AUDINO
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_BUDEW
+pokemon SPECIES_MILTANK
+pokemon SPECIES_RIOLU
 
 // night encounter slots
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_KADABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_KADABRA
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PONYTA
+pokemon SPECIES_PATRAT
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_BURMY
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_RALTS
+pokemon SPECIES_RALTS
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_GLAMEOW
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_LOTAD, 7, 9
+encounter SPECIES_LOTAD, 8, 10
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GEODUDE, 5, 10
+encounter SPECIES_DWEBBLE, 5, 10
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 9
+encounter SPECIES_MAGIKARP, 4, 9
+encounter SPECIES_POLIWAG, 4, 9
+encounter SPECIES_POLIWAG, 4, 9
+encounter SPECIES_GOLDEEN, 4, 9
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 15, 20
+encounter SPECIES_GOLDEEN, 15, 20
+encounter SPECIES_POLIWAG, 15, 20
+encounter SPECIES_BARBOACH, 15, 20
+encounter SPECIES_BARBOACH, 15, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 25, 30
+encounter SPECIES_GYARADOS, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_WHISCASH, 25, 30
+encounter SPECIES_CRAWDAUNT, 25, 30
 
 // swarm grass
-pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_DUNSPARCE
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod
