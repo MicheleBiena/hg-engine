@@ -9,7 +9,6 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3
-       // Trainer 19
        // Trainer 40
        // Trainer 63
        // Trainer 87
@@ -231,15 +230,17 @@ _0144: // Trainer 498
     trainertextentry 498, TEXT_DEFEATED_IN_BATTLE, "I hate to admit it, but you win.\n"
     trainertextentry 498, TEXT_PLAYER_LOSES, "All right!\nSUICUNE, were you watching us?\n"
 
+_1B00: // Trainer 19
+    trainertextentry  19, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Heh...\nThat's the first catch gone.\n"
+    trainertextentry  19, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
+
 _014C: // Trainer 20
-    trainertextentry  20, TEXT_LAST_MON_SENT_OUT, "The wind is finally with us!\n"
-    trainertextentry  20, TEXT_LAST_MON_CRITICAL, "We can still fly!\n"
-    trainertextentry  20, TEXT_DEFEATED_IN_BATTLE, "I understand...\nI’ll bow out gracefully.\n"
+    trainertextentry  20, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Hm!\nThe tide is turning against me.\n"
+    trainertextentry  20, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _0158: // Trainer 21
-    trainertextentry  21, TEXT_LAST_MON_SENT_OUT, "Even though it’s my last Pokémon,\nBug Pokémon are tough!\n"
-    trainertextentry  21, TEXT_LAST_MON_CRITICAL, "Hang in there! Just a little more!\n"
-    trainertextentry  21, TEXT_DEFEATED_IN_BATTLE, "Aw, that’s the end of it...\n"
+    trainertextentry  21, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: You reeled in\na serious win.\n"
+    trainertextentry  21, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _0164: // Trainer 30
     trainertextentry  30, TEXT_LAST_MON_SENT_OUT, "H-hey! Just one left?\nBut... I ain’t losin’, you hear?\n"
@@ -347,9 +348,8 @@ _025C: // Trainer 69
     trainertextentry  69, TEXT_DEFEATED_IN_OVERWORLD, "If you move the web with the switch,\nyou’ll be able to figure out where\fthe lift is going.\n"
 
 _0268: // Trainer 22
-    trainertextentry  22, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t let your guard down just\n’cause I don’t look tough!\r"
-    trainertextentry  22, TEXT_DEFEATED_IN_BATTLE, "Gosh...\nI thought you were weak...\n"
-    trainertextentry  22, TEXT_DEFEATED_IN_OVERWORLD, "Who do you think are stronger--\nboys or girls?\n"
+    trainertextentry  22, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: That one slipped\nthrough my hands...\n"
+    trainertextentry  22, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _0274: // Trainer 71
     trainertextentry  71, TEXT_NOTICE_IN_OVERWORLD, "I like cute Pokémon better than\nstrong Pokémon.\rBut I have strong and cute Pokémon!\r"
@@ -1971,9 +1971,8 @@ _1188: // Trainer 390
     trainertextentry 390, TEXT_DEFEATED_IN_OVERWORLD, "It’s my Pokémon’s fire that lights up\nthis cave.\n"
 
 _1194: // Trainer 23
-    trainertextentry  23, TEXT_NOTICE_IN_OVERWORLD, "I roam far and wide in search of\nPokémon.\rAre you looking for Pokémon, too?\nThen you’re my collecting rival!\r"
-    trainertextentry  23, TEXT_DEFEATED_IN_BATTLE, "Ugh. My poor Pokémon...\n"
-    trainertextentry  23, TEXT_DEFEATED_IN_OVERWORLD, "Every Friday, you can hear Pokémon\nroars from deep inside the cave.\n"
+    trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: The big one\ngot away...\n"
+    trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _11A0: // Trainer 25
     trainertextentry  25, TEXT_NOTICE_IN_OVERWORLD, "You’re headed to Azalea, are you?\nLet my Pokémon see if you are good\fenough to battle.\r"
@@ -3164,7 +3163,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _0000
+/* Trainer  19 */ .halfword _1B00
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268

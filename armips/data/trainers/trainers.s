@@ -626,172 +626,213 @@ trainerdata 18, "Justin"
         ballseal 0
     endparty
 
-trainerdata 19, "Mickey"
+trainerdata 19, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_BIKER
-    nummons 3
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 19
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 8
+        pokemon SPECIES_KRABBY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 8
+        pokemon SPECIES_BARBOACH
         ballseal 0
     endparty
 
-trainerdata 20, "Falkner"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_LEADER_FALKNER
-    nummons 2
+trainerdata 20, "John"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 20
         // mon 0
-        ivs 50
+        ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_PIDGEY
-        item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_SAND_ATTACK
-        move MOVE_NONE
-        move MOVE_NONE
+        level 20
+        pokemon SPECIES_KRABBY
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 0
         abilityslot 0
-        level 13
-        pokemon SPECIES_PIDGEOTTO
-        item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_ROOST
-        move MOVE_GUST
-        move MOVE_NONE
+        level 22
+        pokemon SPECIES_BARBOACH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_PELIPPER
         ballseal 0
     endparty
 
-trainerdata 21, "Bugsy"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_LEADER_BUGSY
-    nummons 3
-    item ITEM_SUPER_POTION
+trainerdata 21, "John"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 21
         // mon 0
-        ivs 80
-        abilityslot 32
-        level 17
-        pokemon SPECIES_SCYTHER
-        item ITEM_SITRUS_BERRY
-        move MOVE_QUICK_ATTACK
-        move MOVE_LEER
-        move MOVE_U_TURN
-        move MOVE_FOCUS_ENERGY
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_KINGLER
         ballseal 0
 
         // mon 1
-        ivs 80
+        ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_KAKUNA
-        item ITEM_NONE
-        move MOVE_POISON_STING
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        level 32
+        pokemon SPECIES_WHISCASH
         ballseal 0
 
         // mon 2
-        ivs 80
+        ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_METAPOD
-        item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        level 34
+        pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SLOWBRO
         ballseal 0
     endparty
 
-trainerdata 22, "Carrie"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_LASS
-    nummons 1
+trainerdata 22, "John"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 22
         // mon 0
-        ivs 10
+        ivs 0
         abilityslot 0
-        level 17
-        pokemon SPECIES_SNUBBULL
-        move MOVE_SCARY_FACE
-        move MOVE_CHARM
-        move MOVE_BITE
-        move MOVE_LICK
+        level 48
+        pokemon SPECIES_KINGLER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_WHISCASH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SLOWBRO
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_LAPRAS
         ballseal 0
     endparty
 
-trainerdata 23, "Larry"
+trainerdata 23, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 23
         // mon 0
         ivs 0
-        abilityslot 32
-        level 11
-        pokemon SPECIES_SLOWPOKE
+        abilityslot 0
+        level 60
+        pokemon SPECIES_KINGLER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_WHISCASH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_SLOWKING
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_LAPRAS
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_WAILORD
         ballseal 0
     endparty
 
