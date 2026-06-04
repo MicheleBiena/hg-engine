@@ -120,20 +120,20 @@ headbuttheader  10,  15,   0   // Route 2
     treecoords 1042, 195, 1042, 194, -1, -1, -1, -1, -1, -1, -1, -1
 .close
 
-headbuttheader  11,   4,   0   // Route 3
+headbuttheader  11,   3,   0   // Route 3
     // normal slots
-    headbuttencounter SPECIES_HOOTHOOT, 6, 7
-    headbuttencounter SPECIES_PINECO, 6, 7
-    headbuttencounter SPECIES_PINECO, 6, 7
-    headbuttencounter SPECIES_WURMPLE, 6, 7
-    headbuttencounter SPECIES_WURMPLE, 6, 7
-    headbuttencounter SPECIES_WURMPLE, 6, 7
-    headbuttencounter SPECIES_HOOTHOOT, 9, 10
-    headbuttencounter SPECIES_HOOTHOOT, 9, 10
-    headbuttencounter SPECIES_HOOTHOOT, 9, 10
-    headbuttencounter SPECIES_WURMPLE, 9, 10
-    headbuttencounter SPECIES_WURMPLE, 9, 10
-    headbuttencounter SPECIES_WURMPLE, 9, 10
+    headbuttencounter SPECIES_BURMY, 5, 8
+    headbuttencounter SPECIES_SILCOON, 5, 8
+    headbuttencounter SPECIES_CASCOON, 5, 8
+    headbuttencounter SPECIES_BURMY, 5, 8
+    headbuttencounter SPECIES_SILCOON, 5, 8
+    headbuttencounter SPECIES_CASCOON, 5, 8
+    headbuttencounter SPECIES_BURMY, 7, 9
+    headbuttencounter SPECIES_SILCOON, 7, 9
+    headbuttencounter SPECIES_CASCOON, 7, 9
+    headbuttencounter SPECIES_BURMY, 7, 9
+    headbuttencounter SPECIES_CASCOON, 7, 9
+    headbuttencounter SPECIES_SLAKOTH, 8, 9
     // special slots
     headbuttencounter SPECIES_NONE, 0, 0
     headbuttencounter SPECIES_NONE, 0, 0
@@ -142,10 +142,9 @@ headbuttheader  11,   4,   0   // Route 3
     headbuttencounter SPECIES_NONE, 0, 0
     headbuttencounter SPECIES_NONE, 0, 0
     // normal trees
-    treecoords 1096, 98, 1096, 99, -1, -1, -1, -1, -1, -1, -1, -1
-    treecoords 1105, 104, 1105, 103, 1104, 104, 1104, 103, -1, -1, -1, -1
-    treecoords 1121, 117, 1122, 117, -1, -1, -1, -1, -1, -1, -1, -1
-    treecoords 1113, 110, 1113, 109, 1114, 109, 1114, 110, -1, -1, -1, -1
+    treecoords 227, 325, 228, 325, 227, 326, 228, 326, -1, -1, -1, -1
+    treecoords 227, 327, 228, 327, 227, 328, 228, 328, -1, -1, -1, -1
+    treecoords 227, 329, 228, 329, 227, 330, 228, 330, -1, -1, -1, -1
 .close
 
 headbuttheader  12,   9,   0   // Route 4

@@ -9,7 +9,6 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3
-       // Trainer 11
        // Trainer 19
        // Trainer 40
        // Trainer 63
@@ -678,11 +677,9 @@ _0584: // Trainer 356
     trainertextentry 356, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My flowers and I will not let you\ngo straight to Erika!\r"
     trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Oh! My little garden wilted...\n"
     trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Roselia and I need more practice\nbefore we guard Erika again.\n"
-    trainertextentry 356, TEXT_DOUBLE_ONLY_1_POKEMON_1, "A double battle needs two Pokemon.\rCome back with a full pair!\n"
     trainertextentry 356, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Roselia!\r"
     trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Rose...lia...\n"
     trainertextentry 356, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Roselia!\n"
-    trainertextentry 356, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Roselia...\n"
 
 _0590: // Trainer 336
     trainertextentry 336, TEXT_NOTICE_IN_OVERWORLD, "Do you think a girls-only Gym is rare?\r"
@@ -693,11 +690,9 @@ _059C: // Trainer 346
     trainertextentry 346, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Beauty is easy. Grace in battle\nis the real challenge!\r"
     trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My beautiful rhythm fell apart!\n"
     trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Turtwig kept its composure\nbetter than I did.\n"
-    trainertextentry 346, TEXT_DOUBLE_ONLY_1_POKEMON_1, "A double battle needs two Pokemon.\rPlease bring another partner.\n"
     trainertextentry 346, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Turtwig!\r"
     trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Tur...twig...\n"
     trainertextentry 346, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Turtwig!\n"
-    trainertextentry 346, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Turtwig...\n"
 
 _05A8: // Trainer 84
     trainertextentry  84, TEXT_DEFEATED_IN_BATTLE, "My disguise was awesome!\nGrrr!\n"
@@ -1205,9 +1200,12 @@ _0A58: // Trainer 26
     trainertextentry  26, TEXT_DEFEATED_IN_OVERWORLD, "If you don’t want to battle, just avoid\neye contact.\n"
 
 _0A64: // Trainer 18
-    trainertextentry  18, TEXT_NOTICE_IN_OVERWORLD, "Whoa!\rYou made me lose that fish!\r"
-    trainertextentry  18, TEXT_DEFEATED_IN_BATTLE, "Sploosh!\n"
-    trainertextentry  18, TEXT_DEFEATED_IN_OVERWORLD, "Calm, collected...\rThe essence of fishing and Pokémon is\nthe same.\n"
+    trainertextentry  18, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Ravaged Path is rough going.\rMy Drilbur knows every loose stone!\r"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "The whole path shook under us!\n"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "A good hiker trusts the ground,\nbut also learns when it gives way.\n"
+    trainertextentry  18, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Drilbur!\r"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Dril...\n"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Drilbur!\n"
 
 _0A70: // Trainer 57
     trainertextentry  57, TEXT_NOTICE_IN_OVERWORLD, "I’m really good at fishing, but I’m even\nbetter at Pokémon!\r"
@@ -2013,10 +2011,21 @@ _120C: // Trainer 486
     trainertextentry 486, TEXT_LAST_MON_CRITICAL, "Are you serious? Did you come here\nthinking you could mess with our plans?\n"
     trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "Grr...\nFor a kid to be this good...\fI didn’t see it coming.\n"
 
+_1214: // Trainer 11
+    trainertextentry  11, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "These tunnels were carved by\nstubborn Pokemon and stubborn hikers!\r"
+    trainertextentry  11, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Whoa! That caved in fast!\n"
+    trainertextentry  11, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Dugtrio and I still know this path\nbetter than anyone.\n"
+    trainertextentry  11, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Dugtrio!\r"
+    trainertextentry  11, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Dug...trio...\n"
+    trainertextentry  11, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Dugtrio!\n"
+
 _1218: // Trainer 12
-    trainertextentry  12, TEXT_NOTICE_IN_OVERWORLD, "Quit taking SlowpokeTails?\rIf we listened to you, Team Rocket’s\nrep would be ruined!\r"
-    trainertextentry  12, TEXT_DEFEATED_IN_BATTLE, "Just...\nToo strong...\n"
-    trainertextentry  12, TEXT_DEFEATED_IN_OVERWORLD, "We need the money, but selling\nSlowpokeTails?\rIt’s tough being a Team Rocket Grunt!\n"
+    trainertextentry  12, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "The stones here remember every\nfootstep through Ravaged Path.\r"
+    trainertextentry  12, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Even old stone can be worn down...\n"
+    trainertextentry  12, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Sandshrew listens to the earth.\rPerhaps I should listen more carefully.\n"
+    trainertextentry  12, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Sandshrew!\r"
+    trainertextentry  12, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Sand...\n"
+    trainertextentry  12, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Sandshrew!\n"
 
 _1224: // Trainer 101
     trainertextentry 101, TEXT_NOTICE_IN_OVERWORLD, "Humph! I was standing guard up top\nwhen some old coot yelled at me.\rHe startled me so much that I fell\ndown here.\rHow about I vent my anger and take it\nout on you!\r"
@@ -2027,11 +2036,9 @@ _1230: // Trainer 13
     trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "My Cubone and I are training\ntogether! Let's see what you can do!\r"
     trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Oh! We still need more practice!\n"
     trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Cubone is tough, but you handled\nour teamwork really well.\n"
-    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_1, "This is a double battle.\rBring two Pokemon and try again!\n"
     trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Cubone!\r"
     trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Cu...bone...\n"
     trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Cubone!\n"
-    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Cubone...\n"
 
 _123C: // Trainer 73
     trainertextentry  73, TEXT_NOTICE_IN_OVERWORLD, "What are you here for? Just to stand\naround and gawk? I suggest you leave!\r"
@@ -3132,7 +3139,7 @@ _1AD0: // Trainer 630
 /* Trainer   8 */ .halfword _0A14
 /* Trainer   9 */ .halfword _0C8C
 /* Trainer  10 */ .halfword _0224
-/* Trainer  11 */ .halfword _0000
+/* Trainer  11 */ .halfword _1214
 /* Trainer  12 */ .halfword _1218
 /* Trainer  13 */ .halfword _1230
 /* Trainer  14 */ .halfword _1370
