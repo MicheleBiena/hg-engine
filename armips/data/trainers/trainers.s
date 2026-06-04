@@ -430,122 +430,157 @@ trainerdata 13, "Sarah"
         ballseal 0
     endparty
 
-trainerdata 14, "Duncan"
+trainerdata 14, "Michelle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_BURGLAR
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 14
         // mon 0
         ivs 0
         abilityslot 0
-        level 23
-        pokemon SPECIES_KOFFING
+        level 12
+        pokemon SPECIES_SPINDA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 25
-        pokemon SPECIES_MAGMAR
+        level 11
+        pokemon SPECIES_SPINDA
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 23
-        pokemon SPECIES_KOFFING
+        level 14
+        pokemon SPECIES_MUNCHLAX
         ballseal 0
     endparty
 
-trainerdata 15, "Otis"
+trainerdata 15, "Belle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_FIREBREATHER
+    trainerclass TRAINERCLASS_BEAUTY
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 15
         // mon 0
         ivs 0
         abilityslot 0
-        level 43
-        pokemon SPECIES_MAGMAR
+        level 15
+        pokemon SPECIES_SHINX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 40
-        pokemon SPECIES_WEEZING
+        level 11
+        pokemon SPECIES_JIGGLYPUFF
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 47
-        pokemon SPECIES_CAMERUPT
+        level 12
+        pokemon SPECIES_SEEDOT
         ballseal 0
     endparty
 
 trainerdata 16, "Simon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 2
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 16
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_TENTACOOL
+        level 14
+        pokemon SPECIES_RIOLU
         ballseal 0
 
         // mon 1
         ivs 0
-        abilityslot 32
-        level 20
-        pokemon SPECIES_TENTACOOL
+        abilityslot 0
+        level 11
+        pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_CHIMCHAR
         ballseal 0
     endparty
 
-trainerdata 17, "Kenji"
+trainerdata 17, "Solana"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_BLACK_BELT
-    nummons 1
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 17
         // mon 0
-        ivs 30
+        ivs 0
         abilityslot 0
-        level 28
-        pokemon SPECIES_MACHOKE
+        level 12
+        pokemon SPECIES_DITTO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_SMOOCHUM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_ELEKID
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_MAGBY
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_PHANPY
         ballseal 0
     endparty
 
@@ -7990,77 +8025,53 @@ trainerdata 252, "Harold"
         ballseal 0
     endparty
 
-trainerdata 253, "Brock"
+trainerdata 253, "Kaseki"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_BROCK
-    nummons 5
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    nummons 3
+    item ITEM_SUPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 253
         // mon 0
         ivs 200
-        abilityslot 32
-        level 51
-        pokemon SPECIES_GRAVELER
+        abilityslot 0
+        level 14
+        pokemon SPECIES_OMANYTE
         item ITEM_NONE
-        move MOVE_DEFENSE_CURL
-        move MOVE_ROCK_SLIDE
-        move MOVE_ROLLOUT
-        move MOVE_EARTHQUAKE
+        move MOVE_PROTECT
+        move MOVE_HARDEN
+        move MOVE_ANCIENT_POWER
+        move MOVE_WATER_GUN
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 0
-        level 51
-        pokemon SPECIES_RHYHORN
+        level 14
+        pokemon SPECIES_ARCHEN
         item ITEM_NONE
-        move MOVE_SANDSTORM
-        move MOVE_SCARY_FACE
-        move MOVE_EARTHQUAKE
-        move MOVE_HORN_DRILL
+        move MOVE_AERIAL_ACE
+        move MOVE_WING_ATTACK
+        move MOVE_ANCIENT_POWER
+        move MOVE_QUICK_ATTACK
         ballseal 0
 
         // mon 2
         ivs 200
-        abilityslot 32
-        level 53
-        pokemon SPECIES_OMASTAR
-        item ITEM_NONE
-        move MOVE_ANCIENT_POWER
-        move MOVE_BRINE
-        move MOVE_PROTECT
-        move MOVE_SPIKE_CANNON
-        ballseal 0
-
-        // mon 3
-        ivs 200
         abilityslot 0
-        level 54
-        pokemon SPECIES_ONIX
-        item ITEM_SITRUS_BERRY
-        move MOVE_IRON_TAIL
-        move MOVE_ROCK_SLIDE
-        move MOVE_SCREECH
-        move MOVE_SANDSTORM
-        ballseal 0
-
-        // mon 4
-        ivs 200
-        abilityslot 32
-        level 52
-        pokemon SPECIES_KABUTOPS
-        item ITEM_NONE
-        move MOVE_ROCK_SLIDE
-        move MOVE_AQUA_JET
-        move MOVE_ENDURE
-        move MOVE_GIGA_DRAIN
+        level 17
+        pokemon SPECIES_SHIELDON
+        item ITEM_ORAN_BERRY
+        move MOVE_PROTECT
+        move MOVE_IRON_HEAD
+        move MOVE_ANCIENT_POWER
+        move MOVE_METAL_BURST
         ballseal 0
     endparty
 
@@ -10539,27 +10550,30 @@ trainerdata 307, "Mickey"
     endparty
 
 trainerdata 308, "Jerry"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 308
         // mon 0
-        ivs 80
-        abilityslot 32
-        level 50
-        pokemon SPECIES_RHYDON
-        move MOVE_ROCK_SLIDE
-        move MOVE_AVALANCHE
-        move MOVE_HAMMER_ARM
-        move MOVE_TAKE_DOWN
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_KABUTO
         ballseal 0
     endparty
 
@@ -23030,27 +23044,37 @@ trainerdata 684, "Elan & Ida"
     endparty
 
 trainerdata 685, "Edwin"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 685
         // mon 0
-        ivs 80
+        ivs 0
         abilityslot 0
-        level 50
-        pokemon SPECIES_GOLEM
-        move MOVE_DOUBLE_EDGE
-        move MOVE_ROCK_SLIDE
-        move MOVE_SANDSTORM
-        move MOVE_ROAR
+        level 11
+        pokemon SPECIES_BALTOY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_ANORITH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_SANDSHREW
         ballseal 0
     endparty
 

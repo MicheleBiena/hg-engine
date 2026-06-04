@@ -514,9 +514,9 @@ _03E8: // Trainer 261
     trainertextentry 261, TEXT_DEFEATED_IN_BATTLE, "This is the real power of Johto...\n"
 
 _03F4: // Trainer 253
-    trainertextentry 253, TEXT_LAST_MON_SENT_OUT, "Ah ha ha! It itches! It itches!\n"
-    trainertextentry 253, TEXT_LAST_MON_CRITICAL, "Ow ow ow ow ow...\n"
-    trainertextentry 253, TEXT_DEFEATED_IN_BATTLE, "Looks like you’re the stronger one...\n"
+    trainertextentry 253, TEXT_LAST_MON_SENT_OUT, "Shieldon, stand firm!\nCarry the ancient world on your shield!\n"
+    trainertextentry 253, TEXT_LAST_MON_CRITICAL, "Even weathered stone can still\nhold the line!\n"
+    trainertextentry 253, TEXT_DEFEATED_IN_BATTLE, "So this is how an era changes...\nWonderful.\n"
 
 _0400: // Trainer 254
     trainertextentry 254, TEXT_LAST_MON_SENT_OUT, "Hmm... You’re pretty good...\n"
@@ -614,14 +614,20 @@ _04CC: // Trainer 684
     trainertextentry 684, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Elan: Huh?\nNot enough Pokémon?\n"
 
 _04EC: // Trainer 308
-    trainertextentry 308, TEXT_NOTICE_IN_OVERWORLD, "The Trainers of this Gym use\nRock-type Pokémon.\rRock-type Pokémon have high Defense.\nBattles could end up going a long time.\rAre you ready for this?\r"
-    trainertextentry 308, TEXT_DEFEATED_IN_BATTLE, "I have to win these battles...\n"
-    trainertextentry 308, TEXT_DEFEATED_IN_OVERWORLD, "Hey, you! Trainer from Johto!\rBrock is tough. He’ll punish you if you\ndon’t take him seriously.\n"
+    trainertextentry 308, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Fossils are not just bones!\nThey are Pokemon history!\rKabuto and I will prove\nhow alive that history is!\r"
+    trainertextentry 308, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "History rolled right over me!\n"
+    trainertextentry 308, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Leader Kaseki is the museum\ndirector's son.\rHe knows every fossil in this city.\n"
+    trainertextentry 308, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Kabuto!\r"
+    trainertextentry 308, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Kabu...\n"
+    trainertextentry 308, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Kabuto!\n"
 
 _04F8: // Trainer 685
-    trainertextentry 685, TEXT_NOTICE_IN_OVERWORLD, "R-r-r-r-R-r-r-R-R-r-R-R-R-R--CRASH!\r"
-    trainertextentry 685, TEXT_DEFEATED_IN_BATTLE, "BOOM!\n"
-    trainertextentry 685, TEXT_DEFEATED_IN_OVERWORLD, "Phew... Broken in pieces.\n"
+    trainertextentry 685, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Every layer of stone remembers\nsomething ancient.\rAnorith and I dug up a battle\nfor you!\r"
+    trainertextentry 685, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Our old bones rattled apart!\n"
+    trainertextentry 685, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "The Gym studies more than rocks.\rIt studies the first stories\nof Himitsu itself.\n"
+    trainertextentry 685, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Anorith!\r"
+    trainertextentry 685, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Ano...\n"
+    trainertextentry 685, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Anorith!\n"
 
 _0504: // Trainer 676
     trainertextentry 676, TEXT_NOTICE_IN_OVERWORLD, "Glub...\rI’m first! Come and get me!\r"
@@ -754,9 +760,12 @@ _061C: // Trainer 140
     trainertextentry 140, TEXT_REMATCH_IN_OVERWORLD, "Have you come to understand the merits\nof bug Pokémon?\r"
 
 _062C: // Trainer 15
-    trainertextentry  15, TEXT_NOTICE_IN_OVERWORLD, "Ah!\nThe weather’s as fine as ever.\r"
-    trainertextentry  15, TEXT_DEFEATED_IN_BATTLE, "It’s sunny, but in my heart,\nit’s rainy...\n"
-    trainertextentry  15, TEXT_DEFEATED_IN_OVERWORLD, "When it rains, it’s hard to get fired up.\nI just simmer...\n"
+    trainertextentry  15, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "The museum up north is all dust\nand old bones.\rI prefer Pokemon with a little\nsparkle!\r"
+    trainertextentry  15, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My shine faded...\n"
+    trainertextentry  15, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Heritage Park is beautiful,\nbut the old church makes me shiver.\n"
+    trainertextentry  15, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Shinx!\r"
+    trainertextentry  15, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Shinx...\n"
+    trainertextentry  15, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Shinx!\n"
 
 _0638: // Trainer 318
     trainertextentry 318, TEXT_NOTICE_IN_OVERWORLD, "Step right up and take a look!\r"
@@ -1411,9 +1420,12 @@ _0C68: // Trainer 39
     trainertextentry  39, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon were caught and raised\noverseas. They’re my companions on\fthose long voyages.\n"
 
 _0C74: // Trainer 16
-    trainertextentry  16, TEXT_NOTICE_IN_OVERWORLD, "You have to warm up before going into\nthe water.\rThat’s basic.\r"
-    trainertextentry  16, TEXT_DEFEATED_IN_BATTLE, "OK! I give up!\n"
-    trainertextentry  16, TEXT_DEFEATED_IN_OVERWORLD, "Cianwood City is a good distance away\nfrom here.\n"
+    trainertextentry  16, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Those rocks to the east are asking\nto be smashed.\rShow me whether your spirit\ncan break through too!\r"
+    trainertextentry  16, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Riolu read me perfectly...\n"
+    trainertextentry  16, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Strength is not only muscle.\rRavaged Path taught me that well.\n"
+    trainertextentry  16, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Riolu!\r"
+    trainertextentry  16, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Rio...\n"
+    trainertextentry  16, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Riolu!\n"
 
 _0C80: // Trainer 86
     trainertextentry  86, TEXT_NOTICE_IN_OVERWORLD, "Hey, you’re young and fit!\nDon’t ride your Pokémon! Swim!\r"
@@ -1578,10 +1590,12 @@ _0DFC: // Trainer 108
     trainertextentry 108, TEXT_DEFEATED_IN_OVERWORLD, "I see you’re raising your Pokémon\nwith care.\rThe bond you build will save you in\ntough situations.\n"
 
 _0E08: // Trainer 17
-    trainertextentry  17, TEXT_NOTICE_IN_OVERWORLD, "I was training here alone.\nBehold the result of my hard work!\r"
-    trainertextentry  17, TEXT_DEFEATED_IN_BATTLE, "Waaaargh!\n"
-    trainertextentry  17, TEXT_DEFEATED_IN_OVERWORLD, "This calls for extreme measures. I must\ntake to the hills and train in solitude.\n"
-    trainertextentry  17, TEXT_REMATCH_IN_OVERWORLD, "I’ve been studying while waiting for you\nto come back...\rLet me show you the results!\r"
+    trainertextentry  17, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "After that cave, I wanted a picnic.\rBut every road here points\nto another mystery!\r"
+    trainertextentry  17, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Our picnic got scattered!\n"
+    trainertextentry  17, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "West are ruins, north is the park,\nand the museum studies old Himitsu.\n"
+    trainertextentry  17, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Phanpy!\r"
+    trainertextentry  17, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Phan...\n"
+    trainertextentry  17, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Phanpy!\n"
 
 _0E18: // Trainer 143
     trainertextentry 143, TEXT_NOTICE_IN_OVERWORLD, "Be prepared for anything!\fLet me see if your Pokémon have been\nraised properly!\r"
@@ -2172,9 +2186,12 @@ _1364: // Trainer 393
     trainertextentry 393, TEXT_DEFEATED_IN_OVERWORLD, "I know all the different types\nof Pokémon.\fBut I only use one type.\n"
 
 _1370: // Trainer 14
-    trainertextentry  14, TEXT_NOTICE_IN_OVERWORLD, "Fork over your goods!\r"
-    trainertextentry  14, TEXT_DEFEATED_IN_BATTLE, "Mercy!\n"
-    trainertextentry  14, TEXT_DEFEATED_IN_OVERWORLD, "Steal and sell!\nThat’s basic in crime, kid!\n"
+    trainertextentry  14, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Fresh out of Ravaged Path?\nThen you are ready for a real test!\rMunchlax and I watch the road\nto Heritage Park.\r"
+    trainertextentry  14, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "That was a full-course loss...\n"
+    trainertextentry  14, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "North is Heritage Park, west are\nthe ruins.\rThe east road is still blocked\nby rocks.\n"
+    trainertextentry  14, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Munchlax!\r"
+    trainertextentry  14, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Munch...\n"
+    trainertextentry  14, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Munchlax!\n"
 
 _137C: // Trainer 283
     trainertextentry 283, TEXT_NOTICE_IN_OVERWORLD, "They ditched this project before\nthey finished.\fI’m searching for leftover loot.\r"
