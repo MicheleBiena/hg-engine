@@ -231,11 +231,11 @@ _0144: // Trainer 498
     trainertextentry 498, TEXT_PLAYER_LOSES, "All right!\nSUICUNE, were you watching us?\n"
 
 _1B00: // Trainer 19
-    trainertextentry  19, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Heh...\nThat's the first catch gone.\n"
+    trainertextentry  19, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: The big one\ngot away...\n"
     trainertextentry  19, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _014C: // Trainer 20
-    trainertextentry  20, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Hm!\nThe tide is turning against me.\n"
+    trainertextentry  20, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: That one slipped\nthrough my hands...\n"
     trainertextentry  20, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _0158: // Trainer 21
@@ -348,7 +348,7 @@ _025C: // Trainer 69
     trainertextentry  69, TEXT_DEFEATED_IN_OVERWORLD, "If you move the web with the switch,\nyou’ll be able to figure out where\fthe lift is going.\n"
 
 _0268: // Trainer 22
-    trainertextentry  22, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: That one slipped\nthrough my hands...\n"
+    trainertextentry  22, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Hm!\nThe tide is turning against me.\n"
     trainertextentry  22, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _0274: // Trainer 71
@@ -1971,7 +1971,7 @@ _1188: // Trainer 390
     trainertextentry 390, TEXT_DEFEATED_IN_OVERWORLD, "It’s my Pokémon’s fire that lights up\nthis cave.\n"
 
 _1194: // Trainer 23
-    trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: The big one\ngot away...\n"
+    trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "John: Heh...\nThat's the first catch gone.\n"
     trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _11A0: // Trainer 25

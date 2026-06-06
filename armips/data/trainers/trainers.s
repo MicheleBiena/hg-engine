@@ -629,7 +629,7 @@ trainerdata 18, "Justin"
 trainerdata 19, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 2
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -642,22 +642,50 @@ trainerdata 19, "John"
         // mon 0
         ivs 0
         abilityslot 0
-        level 8
-        pokemon SPECIES_KRABBY
+        level 60
+        pokemon SPECIES_KINGLER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 8
-        pokemon SPECIES_BARBOACH
+        level 58
+        pokemon SPECIES_WHISCASH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_SLOWKING
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_LAPRAS
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_WAILORD
         ballseal 0
     endparty
 
 trainerdata 20, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 3
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -670,22 +698,36 @@ trainerdata 20, "John"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KRABBY
+        level 48
+        pokemon SPECIES_KINGLER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_BARBOACH
+        level 46
+        pokemon SPECIES_WHISCASH
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 20
+        level 45
         pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SLOWBRO
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_LAPRAS
         ballseal 0
     endparty
 
@@ -734,7 +776,7 @@ trainerdata 21, "John"
 trainerdata 22, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 5
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -747,43 +789,29 @@ trainerdata 22, "John"
         // mon 0
         ivs 0
         abilityslot 0
-        level 48
-        pokemon SPECIES_KINGLER
+        level 20
+        pokemon SPECIES_KRABBY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 46
-        pokemon SPECIES_WHISCASH
+        level 22
+        pokemon SPECIES_BARBOACH
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 45
+        level 20
         pokemon SPECIES_PELIPPER
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 45
-        pokemon SPECIES_SLOWBRO
-        ballseal 0
-
-        // mon 4
-        ivs 0
-        abilityslot 0
-        level 46
-        pokemon SPECIES_LAPRAS
         ballseal 0
     endparty
 
 trainerdata 23, "John"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 6
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -796,43 +824,15 @@ trainerdata 23, "John"
         // mon 0
         ivs 0
         abilityslot 0
-        level 60
-        pokemon SPECIES_KINGLER
+        level 8
+        pokemon SPECIES_KRABBY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 58
-        pokemon SPECIES_WHISCASH
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 58
-        pokemon SPECIES_PELIPPER
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 60
-        pokemon SPECIES_SLOWKING
-        ballseal 0
-
-        // mon 4
-        ivs 0
-        abilityslot 0
-        level 56
-        pokemon SPECIES_LAPRAS
-        ballseal 0
-
-        // mon 5
-        ivs 0
-        abilityslot 0
-        level 60
-        pokemon SPECIES_WAILORD
+        level 8
+        pokemon SPECIES_BARBOACH
         ballseal 0
     endparty
 
