@@ -313,10 +313,12 @@ _0200: // Trainer 719
     trainertextentry 719, TEXT_DEFEATED_IN_BATTLE, "I lost? ...\rI don’t believe it.\nThere must be some mistake...\n"
 
 _020C: // Trainer 29
-    trainertextentry  29, TEXT_NOTICE_IN_OVERWORLD, "Ho ho!\rYou some kind of big shot? We’ll see\fwhat happens if you get pushed around\nup here. Think you’ll stagger and fall?\rPeople here are training night and\nday to become bird Pokémon masters.\rBring it on!\r"
-    trainertextentry  29, TEXT_DEFEATED_IN_BATTLE, "Gaaah!\n"
-    trainertextentry  29, TEXT_DEFEATED_IN_OVERWORLD, "Falkner’s skills are for real!\rDon’t get cocky!"
-
+    trainertextentry  29, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "A sailor can read ponds, lakes,\nand oceans alike.\rRoute 4's waters have depth\nunder their calm surface!\r"
+    trainertextentry  29, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "I misread the current!\n"
+    trainertextentry  29, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Some ponds here lead down to\nunderwater caves.\rThat is a route worth respecting.\n"
+    trainertextentry  29, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Lumineon!\r"
+    trainertextentry  29, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Lumi...\n"
+    trainertextentry  29, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Lumineon!\n"
 _0218: // Trainer 50
     trainertextentry  50, TEXT_NOTICE_IN_OVERWORLD, "I can’t believe how ridiculously high\nthis is! But from up here, you can tell\fwhat it feels like to be a bird Pokémon!\rLet me see if you’re good enough to\nface Falkner!\r"
     trainertextentry  50, TEXT_DEFEATED_IN_BATTLE, "This can’t be true!\n"
@@ -1111,10 +1113,12 @@ _0968: // Trainer 366
     trainertextentry 366, TEXT_DEFEATED_IN_OVERWORLD, "I’m sorry... I won’t cheat anymore...\n"
 
 _0974: // Trainer 28
-    trainertextentry  28, TEXT_NOTICE_IN_OVERWORLD, "I’m making my final preparations for the\nPokémon League.\r"
-    trainertextentry  28, TEXT_DEFEATED_IN_BATTLE, "I blew it!\n"
-    trainertextentry  28, TEXT_DEFEATED_IN_OVERWORLD, "It’s going to be tough to win at the\nLeague. I need to do some more\rtraining. I hear that the League’s Elite\nFour are tougher than Gym Leaders.\n"
-
+    trainertextentry  28, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "The reeds by the ponds are crawling\nwith tough little surprises!\rMy bugs love this route!\r"
+    trainertextentry  28, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My net missed the moment...\n"
+    trainertextentry  28, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Ferroseed hides near damp stone.\rDunsparce just appears wherever\nit wants, I think.\n"
+    trainertextentry  28, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Heracross!\r"
+    trainertextentry  28, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Hera...\n"
+    trainertextentry  28, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Heracross!\n"
 _0980: // Trainer 102
     trainertextentry 102, TEXT_NOTICE_IN_OVERWORLD, "By experiencing tough battles, you\ngain power.\r"
     trainertextentry 102, TEXT_DEFEATED_IN_BATTLE, "Gah! Life is even tougher!\n"
@@ -1122,10 +1126,7 @@ _0980: // Trainer 102
     trainertextentry 102, TEXT_REMATCH_IN_OVERWORLD, "I want to see how close you are to\nreal strength!\r"
 
 _0990: // Trainer 36
-    trainertextentry  36, TEXT_NOTICE_IN_OVERWORLD, "Since you’ve come this far, you must be\ngood. I’m going to give this battle\feverything I’ve got!\r"
-    trainertextentry  36, TEXT_DEFEATED_IN_BATTLE, "No! I don’t believe this!\n"
-    trainertextentry  36, TEXT_DEFEATED_IN_OVERWORLD, "I’ve defeated eight Gym Leaders, so I\nwas feeling confident.\rI’ll have to try harder next time.\n"
-
+    trainertextentry  36, TEXT_DEFEATED_IN_BATTLE, "Daichi: Hitmonlee's kick\nwas not enough...\n"
 _099C: // Trainer 113
     trainertextentry 113, TEXT_NOTICE_IN_OVERWORLD, "I lost to a redheaded Trainer. He was\nreally strong, but...it was as if he\fabsolutely had to win at any cost.\fI felt sorry for his Pokémon.\r"
     trainertextentry 113, TEXT_DEFEATED_IN_BATTLE, "Pokémon aren’t tools of war.\n"
@@ -1204,9 +1205,12 @@ _0A4C: // Trainer 383
     trainertextentry 383, TEXT_DEFEATED_IN_OVERWORLD, "I should train again at the Gym in\nViolet City.\n"
 
 _0A58: // Trainer 26
-    trainertextentry  26, TEXT_NOTICE_IN_OVERWORLD, "That glance...\nIt’s intriguing.\r"
-    trainertextentry  26, TEXT_DEFEATED_IN_BATTLE, "Hmmm. This is disappointing.\n"
-    trainertextentry  26, TEXT_DEFEATED_IN_OVERWORLD, "If you don’t want to battle, just avoid\neye contact.\n"
+    trainertextentry  26, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "These bridges and wet stone steps\nare perfect for balance training!\r"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My stance slipped first!\n"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Even the ponds here do not sit still.\rThose whirlpools pull your focus\ndownward.\n"
+    trainertextentry  26, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Pancham!\r"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Pan...\n"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Pancham!\n"
 
 _0A64: // Trainer 18
     trainertextentry  18, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Ravaged Path is rough going.\rMy Drilbur knows every loose stone!\r"
@@ -1228,10 +1232,12 @@ _0A80: // Trainer 60
     trainertextentry  60, TEXT_DEFEATED_IN_OVERWORLD, "Freshly caught Pokémon are no match\nfor properly raised ones.\n"
 
 _0A8C: // Trainer 27
-    trainertextentry  27, TEXT_NOTICE_IN_OVERWORLD, "Uh-huh. Yeah, and you know...\rPardon? Pokémon battle?\nI’m on the phone.\rOh, all right.\nI’ll accept your challenge!\r"
-    trainertextentry  27, TEXT_DEFEATED_IN_BATTLE, "Pfft.\nBefore I could get serious, I lost!\n"
-    trainertextentry  27, TEXT_DEFEATED_IN_OVERWORLD, "At least I can complain over the phone.\n"
-    trainertextentry  27, TEXT_REMATCH_IN_OVERWORLD, "You’re late! Let’s get started now!\r"
+    trainertextentry  27, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "I finally found one of the rumored\nmetal birds of Route 4!\rSkarmory is real, and the rumor\nis true!\r"
+    trainertextentry  27, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Even a metal bird can be grounded...\n"
+    trainertextentry  27, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "If more Skarmory nest near these\nlakes, people from Newport will\ncome searching too.\n"
+    trainertextentry  27, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Skarmory!\r"
+    trainertextentry  27, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Skar...\n"
+    trainertextentry  27, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Skarmory!\n"
 
 _0A9C: // Trainer 49
     trainertextentry  49, TEXT_NOTICE_IN_OVERWORLD, "I haven’t seen you around before.\nSo you think you’re pretty tough?\r"
@@ -1351,10 +1357,12 @@ _0BB4: // Trainer 395
     trainertextentry 395, TEXT_DEFEATED_IN_OVERWORLD, "If you read your opponent’s mind, then\nyou can attack more efficiently!\n"
 
 _0BC0: // Trainer 24
-    trainertextentry  24, TEXT_NOTICE_IN_OVERWORLD, "I can properly prepare for any\nPokémon adversary!\r"
-    trainertextentry  24, TEXT_DEFEATED_IN_BATTLE, "Huh...?\nWas my prediction incorrect?\n"
-    trainertextentry  24, TEXT_DEFEATED_IN_OVERWORLD, "Sniffle... I study for five hours\nstraight every day...\rIf you only read the textbook, I guess\nyou miss out on a lot.\n"
-    trainertextentry  24, TEXT_REMATCH_IN_OVERWORLD, "I’ve prepared perfectly, waiting\nfor you!\r"
+    trainertextentry  24, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Route 4 is all bridges, ledges,\nand sudden turns.\rHerdier, Vigoroth, keep formation!\r"
+    trainertextentry  24, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "My formation broke first...\n"
+    trainertextentry  24, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Newport is close, but this route\nstill makes you watch your footing.\n"
+    trainertextentry  24, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Vigoroth!\r"
+    trainertextentry  24, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Vigo...\n"
+    trainertextentry  24, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Vigoroth!\n"
 
 _0BD0: // Trainer 386
     trainertextentry 386, TEXT_NOTICE_IN_OVERWORLD, "Pokémon can’t do a thing if they are\nasleep. I’ll show you how scary that is!\r"
@@ -1975,10 +1983,12 @@ _1194: // Trainer 23
     trainertextentry  23, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, " \n"
 
 _11A0: // Trainer 25
-    trainertextentry  25, TEXT_NOTICE_IN_OVERWORLD, "You’re headed to Azalea, are you?\nLet my Pokémon see if you are good\fenough to battle.\r"
-    trainertextentry  25, TEXT_DEFEATED_IN_BATTLE, "Oh, oh, oh!\n"
-    trainertextentry  25, TEXT_DEFEATED_IN_OVERWORLD, "All right, then! I’ve decided.\rI’m not leaving until my Pokémon\nget tougher!\n"
-
+    trainertextentry  25, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Pika-pika! I mean... battle!\rAll my tiny sparks are ready!\r"
+    trainertextentry  25, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Aww... my cheeks stopped sparking.\n"
+    trainertextentry  25, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "The ponds here make the lights\nof Newport look extra shiny.\n"
+    trainertextentry  25, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Pikachu!\r"
+    trainertextentry  25, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Pika...\n"
+    trainertextentry  25, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Pikachu!\n"
 _11AC: // Trainer 384
     trainertextentry 384, TEXT_NOTICE_IN_OVERWORLD, "Whoa! What a surprise!\nI didn’t expect to see anyone here!\r"
     trainertextentry 384, TEXT_DEFEATED_IN_BATTLE, "Whoa! I’m beaten big time!\n"
@@ -2064,10 +2074,7 @@ _1248: // Trainer 217
     trainertextentry 217, TEXT_DEFEATED_IN_OVERWORLD, "My bird Pokémon trained in Cianwood.\nSince I’ve lost, maybe we’ll go across\fthe sea.\n"
 
 _1254: // Trainer 37
-    trainertextentry  37, TEXT_NOTICE_IN_OVERWORLD, "I travel the world to train my Pokémon.\nNow, I wish to battle with you.\r"
-    trainertextentry  37, TEXT_DEFEATED_IN_BATTLE, "...Aww... I must train some more...\n"
-    trainertextentry  37, TEXT_DEFEATED_IN_OVERWORLD, "Jasmine used to use Rock Pokémon\nlike ONIX.\n"
-
+    trainertextentry  37, TEXT_DEFEATED_IN_BATTLE, "Daichi: Hitmonchan's fists\nstill need discipline...\n"
 _1260: // Trainer 401
     trainertextentry 401, TEXT_NOTICE_IN_OVERWORLD, "Eh? This is no place for playing.\r"
     trainertextentry 401, TEXT_DEFEATED_IN_BATTLE, "Ah! I can see you’re serious.\n"
