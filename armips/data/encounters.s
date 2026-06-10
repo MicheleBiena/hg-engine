@@ -11868,102 +11868,102 @@ encounterdata 114   // Route 4
 
 walkrate 20
 surfrate 15
-rocksmashrate 0
+rocksmashrate 20
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
+walklevels 9, 9, 10, 10, 10, 10, 8, 8, 11, 11, 12, 12
 
 // morning encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_MANKEY
+pokemon SPECIES_TANGELA
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_VENONAT
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_POLIWAG
+pokemon SPECIES_SPOINK
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_STANTLER
+pokemon SPECIES_PHANPY
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SKARMORY
 
 // day encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_MANKEY
+pokemon SPECIES_TANGELA
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_VENONAT
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_POLIWAG
+pokemon SPECIES_SPOINK
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_STANTLER
+pokemon SPECIES_PHANPY
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SKARMORY
 
 // night encounter slots
-pokemon SPECIES_SPEAROW
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SPEAROW
 pokemon SPECIES_ZUBAT
+pokemon SPECIES_ABRA
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_DROWZEE
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_NINCADA
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_WOOBAT
+pokemon SPECIES_WOOBAT
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_SPOINK
 
 // sinnoh encounter slots
 pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_FINNEON
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_POLIWAG, 8, 12
+encounter SPECIES_WOOPER, 8, 12
+encounter SPECIES_MARILL, 9, 12
+encounter SPECIES_BUIZEL, 9, 12
+encounter SPECIES_FINNEON, 10, 12
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DWEBBLE, 8, 12
+encounter SPECIES_CORPHISH, 8, 12
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_BARBOACH, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 12, 22
+encounter SPECIES_GOLDEEN, 12, 22
+encounter SPECIES_BARBOACH, 12, 22
+encounter SPECIES_CORPHISH, 12, 22
+encounter SPECIES_FINNEON, 12, 22
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WHISCASH, 25, 40
+encounter SPECIES_SEAKING, 25, 40
+encounter SPECIES_CRAWDAUNT, 25, 40
+encounter SPECIES_LUMINEON, 25, 40
+encounter SPECIES_CLAMPERL, 25, 40
 
 // swarm grass
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_NONE
 // swarm surf
-pokemon SPECIES_GOLDEEN
+pokemon SPECIES_NONE
 // swarm good rod
-pokemon SPECIES_GOLDEEN
+pokemon SPECIES_NONE
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_NONE
 
 .close
 
