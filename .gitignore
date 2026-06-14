@@ -111,3 +111,7 @@ changelog
 
 test_logs.txt
 .scratch/
+
+# local Codex/agent skills
+.agents/
+skills-lock.json
