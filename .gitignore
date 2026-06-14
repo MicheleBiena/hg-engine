@@ -102,5 +102,12 @@ changelog
 /data/generated/
 /armips/include/generated/
 /include/constants/generated/
+
+# local trainer documentation/export tooling
+/documentation/generated/
+/documentation/touched_trainers.md
+/documentation/trainer_export.md
+/scripts/export_touched_trainers.py
+
 test_logs.txt
 .scratch/
