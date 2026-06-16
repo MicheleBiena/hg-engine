@@ -107,7 +107,7 @@ trainerdata 3, "Silver"
         ballseal 0
     endparty
 
-trainerdata 4, "Alex"
+trainerdata 4, "Alex" // Route2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
@@ -136,7 +136,7 @@ trainerdata 4, "Alex"
 
     endparty
 
-trainerdata 5, "Victoria"
+trainerdata 5, "Victoria" // Route2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_LASS
     nummons 3
@@ -234,7 +234,7 @@ trainerdata 7, "Irwin"
         ballseal 0
     endparty
 
-trainerdata 8, "Joey"
+trainerdata 8, "Joey" // Route2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
@@ -262,7 +262,7 @@ trainerdata 8, "Joey"
         ballseal 0
     endparty
 
-trainerdata 9, "Leo"
+trainerdata 9, "Leo" // Route2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
@@ -325,7 +325,7 @@ trainerdata 10, "Amy & Mimi"
         ballseal 0
     endparty
 
-trainerdata 11, "Aiden"
+trainerdata 11, "Aiden" // RavagedPath
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
     nummons 4
@@ -367,7 +367,7 @@ trainerdata 11, "Aiden"
         ballseal 0
     endparty
 
-trainerdata 12, "Marcus"
+trainerdata 12, "Marcus" // RavagedPath
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ELDER
     nummons 2
@@ -395,7 +395,7 @@ trainerdata 12, "Marcus"
         ballseal 0
     endparty
 
-trainerdata 13, "Sarah"
+trainerdata 13, "Sarah" // Route3
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_LASS
     nummons 3
@@ -430,7 +430,7 @@ trainerdata 13, "Sarah"
         ballseal 0
     endparty
 
-trainerdata 14, "Michelle"
+trainerdata 14, "Michelle" // R3PostCave
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
@@ -465,7 +465,7 @@ trainerdata 14, "Michelle"
         ballseal 0
     endparty
 
-trainerdata 15, "Belle"
+trainerdata 15, "Belle" // R3PostCave
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
@@ -500,7 +500,7 @@ trainerdata 15, "Belle"
         ballseal 0
     endparty
 
-trainerdata 16, "Simon"
+trainerdata 16, "Simon" // R3PostCave
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
@@ -535,7 +535,7 @@ trainerdata 16, "Simon"
         ballseal 0
     endparty
 
-trainerdata 17, "Solana"
+trainerdata 17, "Solana" // R3PostCave
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PICNICKER
     nummons 5
@@ -584,7 +584,7 @@ trainerdata 17, "Solana"
         ballseal 0
     endparty
 
-trainerdata 18, "Justin"
+trainerdata 18, "Justin" // RavagedPath
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
     nummons 4
@@ -626,7 +626,7 @@ trainerdata 18, "Justin"
         ballseal 0
     endparty
 
-trainerdata 19, "John"
+trainerdata 19, "John" // HeritagePark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 6
@@ -682,7 +682,7 @@ trainerdata 19, "John"
         ballseal 0
     endparty
 
-trainerdata 20, "John"
+trainerdata 20, "John" // HeritagePark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 5
@@ -731,7 +731,7 @@ trainerdata 20, "John"
         ballseal 0
     endparty
 
-trainerdata 21, "John"
+trainerdata 21, "John" // HeritagePark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 4
@@ -773,7 +773,7 @@ trainerdata 21, "John"
         ballseal 0
     endparty
 
-trainerdata 22, "John"
+trainerdata 22, "John" // HeritagePark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
@@ -808,7 +808,7 @@ trainerdata 22, "John"
         ballseal 0
     endparty
 
-trainerdata 23, "John"
+trainerdata 23, "John" // HeritagePark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 2
@@ -836,7 +836,7 @@ trainerdata 23, "John"
         ballseal 0
     endparty
 
-trainerdata 24, "Gavin"
+trainerdata 24, "Gavin" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 2
@@ -864,7 +864,7 @@ trainerdata 24, "Gavin"
         ballseal 0
     endparty
 
-trainerdata 25, "Poppy"
+trainerdata 25, "Poppy" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_KID
     nummons 5
@@ -913,7 +913,7 @@ trainerdata 25, "Poppy"
         ballseal 0
     endparty
 
-trainerdata 26, "Takeshi"
+trainerdata 26, "Takeshi" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
@@ -948,7 +948,7 @@ trainerdata 26, "Takeshi"
         ballseal 0
     endparty
 
-trainerdata 27, "Corbin"
+trainerdata 27, "Corbin" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
@@ -976,7 +976,7 @@ trainerdata 27, "Corbin"
         ballseal 0
     endparty
 
-trainerdata 28, "Milo"
+trainerdata 28, "Milo" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
@@ -1011,7 +1011,7 @@ trainerdata 28, "Milo"
         ballseal 0
     endparty
 
-trainerdata 29, "Ronan"
+trainerdata 29, "Ronan" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SAILOR
     nummons 2
@@ -1339,7 +1339,7 @@ trainerdata 35, "Clair"
         ballseal 0
     endparty
 
-trainerdata 36, "Daichi"
+trainerdata 36, "Daichi" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 1
@@ -1360,7 +1360,7 @@ trainerdata 36, "Daichi"
         ballseal 0
     endparty
 
-trainerdata 37, "Daichi"
+trainerdata 37, "Daichi" // Route4
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 1
@@ -8074,7 +8074,7 @@ trainerdata 252, "Harold"
         ballseal 0
     endparty
 
-trainerdata 253, "Kaseki"
+trainerdata 253, "Kaseki" // Gym1
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 3
@@ -8260,7 +8260,7 @@ trainerdata 255, "Lt. Surge"
         ballseal 0
     endparty
 
-trainerdata 256, "Erika"
+trainerdata 256, "Erika" // Gym2
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 2
@@ -10598,7 +10598,7 @@ trainerdata 307, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 308, "Jerry"
+trainerdata 308, "Jerry" // Gym1
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
@@ -11728,7 +11728,7 @@ trainerdata 345, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 346, "Julia"
+trainerdata 346, "Julia" // Gym2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
@@ -12060,7 +12060,7 @@ trainerdata 355, "Shannon"
         ballseal 0
     endparty
 
-trainerdata 356, "Michelle"
+trainerdata 356, "Michelle" // Gym2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_LASS
     nummons 4
@@ -23092,7 +23092,7 @@ trainerdata 684, "Elan & Ida"
         ballseal 0
     endparty
 
-trainerdata 685, "Edwin"
+trainerdata 685, "Edwin" // Gym1
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
     nummons 3
