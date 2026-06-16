@@ -8074,7 +8074,7 @@ trainerdata 252, "Harold"
         ballseal 0
     endparty
 
-trainerdata 253, "Kaseki" // Gym1
+trainerdata 253, "Kaseki" // Gym2
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 3
@@ -8260,7 +8260,7 @@ trainerdata 255, "Lt. Surge"
         ballseal 0
     endparty
 
-trainerdata 256, "Erika" // Gym2
+trainerdata 256, "Erika" // Gym1
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 2
@@ -8279,10 +8279,10 @@ trainerdata 256, "Erika" // Gym2
         level 12
         pokemon SPECIES_CARNIVINE
         item ITEM_NONE
-        move MOVE_VINE_WHIP
+        move MOVE_INGRAIN
+        move MOVE_LEECH_SEED
+        move MOVE_ABSORB
         move MOVE_BIND
-        move MOVE_GROWTH
-        move MOVE_SWEET_SCENT
         ballseal 0
 
         // mon 1
@@ -8291,10 +8291,10 @@ trainerdata 256, "Erika" // Gym2
         level 12
         pokemon SPECIES_CARNIVINE
         item ITEM_ORAN_BERRY
-        move MOVE_RAZOR_LEAF
-        move MOVE_BITE
         move MOVE_INGRAIN
-        move MOVE_GROWTH
+        move MOVE_LEECH_SEED
+        move MOVE_ABSORB
+        move MOVE_BIND
         ballseal 0
     endparty
 
@@ -10598,7 +10598,7 @@ trainerdata 307, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 308, "Jerry" // Gym1
+trainerdata 308, "Jerry" // Gym2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
@@ -11728,8 +11728,8 @@ trainerdata 345, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 346, "Julia" // Gym2
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 346, "Julia" // Gym1
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
     item ITEM_NONE
@@ -11746,6 +11746,11 @@ trainerdata 346, "Julia" // Gym2
         abilityslot 0
         level 11
         pokemon SPECIES_TURTWIG
+        item ITEM_ORAN_BERRY
+        move MOVE_LEECH_SEED
+        move MOVE_ABSORB
+        move MOVE_WITHDRAW
+        move MOVE_TACKLE
         ballseal 0
 
         // mon 1
@@ -11753,6 +11758,11 @@ trainerdata 346, "Julia" // Gym2
         abilityslot 0
         level 8
         pokemon SPECIES_SPINARAK
+        item ITEM_PECHA_BERRY
+        move MOVE_POISON_STING
+        move MOVE_STRING_SHOT
+        move MOVE_ABSORB
+        move MOVE_INFESTATION
         ballseal 0
 
         // mon 2
@@ -11760,6 +11770,11 @@ trainerdata 346, "Julia" // Gym2
         abilityslot 0
         level 8
         pokemon SPECIES_SPINARAK
+        item ITEM_ORAN_BERRY
+        move MOVE_POISON_STING
+        move MOVE_STRING_SHOT
+        move MOVE_ABSORB
+        move MOVE_INFESTATION
         ballseal 0
     endparty
 
@@ -12060,8 +12075,8 @@ trainerdata 355, "Shannon"
         ballseal 0
     endparty
 
-trainerdata 356, "Michelle" // Gym2
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 356, "Michelle" // Gym1
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LASS
     nummons 4
     item ITEM_NONE
@@ -12078,6 +12093,11 @@ trainerdata 356, "Michelle" // Gym2
         abilityslot 0
         level 9
         pokemon SPECIES_ROSELIA
+        item ITEM_ORAN_BERRY
+        move MOVE_STUN_SPORE
+        move MOVE_LEECH_SEED
+        move MOVE_MEGA_DRAIN
+        move MOVE_GROWTH
         ballseal 0
 
         // mon 1
@@ -12085,6 +12105,11 @@ trainerdata 356, "Michelle" // Gym2
         abilityslot 0
         level 8
         pokemon SPECIES_COTTONEE
+        item ITEM_CHERI_BERRY
+        move MOVE_STUN_SPORE
+        move MOVE_LEECH_SEED
+        move MOVE_ABSORB
+        move MOVE_HELPING_HAND
         ballseal 0
 
         // mon 2
@@ -12092,6 +12117,11 @@ trainerdata 356, "Michelle" // Gym2
         abilityslot 0
         level 7
         pokemon SPECIES_BONSLY
+        item ITEM_ORAN_BERRY
+        move MOVE_FAKE_TEARS
+        move MOVE_COPYCAT
+        move MOVE_FLAIL
+        move MOVE_PROTECT
         ballseal 0
 
         // mon 3
@@ -12099,6 +12129,11 @@ trainerdata 356, "Michelle" // Gym2
         abilityslot 0
         level 7
         pokemon SPECIES_COMBEE
+        item ITEM_PECHA_BERRY
+        move MOVE_GUST
+        move MOVE_SWEET_SCENT
+        move MOVE_BUG_BITE
+        move MOVE_STRUGGLE_BUG
         ballseal 0
     endparty
 
@@ -23092,7 +23127,7 @@ trainerdata 684, "Elan & Ida"
         ballseal 0
     endparty
 
-trainerdata 685, "Edwin" // Gym1
+trainerdata 685, "Edwin" // Gym2
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
     nummons 3
