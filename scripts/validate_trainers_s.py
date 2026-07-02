@@ -1,5 +1,14 @@
 import sys
 import re
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS_DIR = ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from export_touched_trainers import CARD_SLOT_COUNT, DEFAULT_TRAINERS, parse_trainers as parse_c_trainers
 
 
 def parse_trainers(file_path):
@@ -313,12 +322,63 @@ def validate_trainers(trainers, print_team):
 
 
 if __name__ == "__main__":
-    trainer_s_path = '../armips/data/trainers/trainers.s'
-    print_team_on_error = False
-
     args = sys.argv[1:]
-    if len(args) == 1:
-        trainer_s_path = args[0].strip()
+    trainer_path = Path(args[0]) if len(args) == 1 else DEFAULT_TRAINERS
 
-    parsed_trainers = parse_trainers(trainer_s_path)
-    validate_trainers(parsed_trainers, print_team_on_error)
+    if trainer_path.suffix.lower() == ".s":
+        print("ERROR: trainers.s validation is obsolete; validate data/Trainers.c instead")
+        sys.exit(1)
+
+    try:
+        trainers = parse_c_trainers(trainer_path)
+    except Exception as exc:
+        print(f"ERROR: failed to parse {trainer_path}: {exc}")
+        sys.exit(1)
+
+    errors = []
+    party_mon_count = 0
+    if not trainers:
+        errors.append(f"ERROR: no trainers parsed from {trainer_path}")
+
+    for trainer_id in sorted(trainers):
+        trainer = trainers[trainer_id]
+        if trainer_id == 0:
+            continue
+
+        party = trainer.party
+        party_mon_count += len(party)
+        label = f"trainer {trainer_id} ({trainer.name or '<unnamed>'})"
+
+        if not trainer.name:
+            errors.append(f"ERROR: {label} is missing .name")
+        if not trainer.trainerclass:
+            errors.append(f"ERROR: {label} is missing .data.trainerClass")
+        if len(party) > CARD_SLOT_COUNT:
+            errors.append(f"ERROR: {label} has {len(party)} party mons; max is {CARD_SLOT_COUNT}")
+
+        for slot, mon in enumerate(party, start=1):
+            species = str(mon.get("pokemon", "")).strip()
+            level_raw = str(mon.get("level", "")).strip()
+            moves = mon.get("moves", [])
+
+            if not species or species == "SPECIES_NONE":
+                errors.append(f"ERROR: {label} party slot {slot} is missing species")
+            if not level_raw:
+                errors.append(f"ERROR: {label} party slot {slot} is missing level")
+            else:
+                try:
+                    level = int(level_raw, 0)
+                except ValueError:
+                    errors.append(f"ERROR: {label} party slot {slot} has non-numeric level {level_raw}")
+                else:
+                    if not 1 <= level <= 100:
+                        errors.append(f"ERROR: {label} party slot {slot} has out-of-range level {level}")
+
+            if len(moves) > 4:
+                errors.append(f"ERROR: {label} party slot {slot} has {len(moves)} moves; max is 4")
+
+    if errors:
+        print("\n".join(errors))
+        sys.exit(1)
+
+    print(f"Validated {len(trainers)} trainer entries with {party_mon_count} party mons from {trainer_path}.")

@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.pal text eol=crlf
+*.sh text eol=lf
+*.png.key -text -whitespace

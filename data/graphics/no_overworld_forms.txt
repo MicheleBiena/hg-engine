@@ -1,0 +1,12 @@
+# Species/forms listed here intentionally have no overworld sprite.
+#
+# scripts/reformat_sprite_data.py still emits a pokemonow padding target for
+# each entry, using data/graphics/sprites/none/overworld.png, so later
+# overworld indices keep matching MON_OVERWORLD_GFX_START + species.
+#
+# Use this for battle-only forms such as attack/shadow states that should not
+# appear as followers or map events. If a form should be visible outside battle,
+# remove it from this file, add its overworld.png, regenerate pokegra.mk, and
+# add the corresponding MON_FOLLOWER_ENTRY in src/field/overworld_table.c.
+
+SPECIES_SINFAE_SHADOW
