@@ -1,8 +1,11 @@
 # Touched Trainers
 
-Ultimo aggiornamento: 2026-06-27
+Ultimo aggiornamento: 2026-07-02
 
-Formato lista trainer: `numero: Classe allenatore - Nome (percorso/area)`
+Formato lista trainer: `numero: Classe allenatore - Nome (percorso/area)`.
+
+La fonte tecnica dei team e dei testi e `data/Trainers.c`; questo file decide
+quali trainer esportare e in quale ordine di esplorazione mostrarli.
 
 ## Regole Area Export
 

@@ -1,7 +1,8 @@
 # Trainer Export
 
 This repository can generate spreadsheet-ready documentation for the trainers
-listed in `documentation/touched_trainers.md`.
+listed in `documentation/touched_trainers.md`. The exporter reads from the merged
+C trainer table, `data/Trainers.c`.
 
 Run:
 
@@ -23,7 +24,7 @@ To export only selected formats, pass them after `--formats`:
 python scripts/export_touched_trainers.py --formats xlsx
 ```
 
-Default outputs:
+Default outputs, all ignored by Git:
 
 - `documentation/generated/touched_trainers.csv`
 - `documentation/generated/touched_trainers.html`
@@ -63,11 +64,15 @@ unless the user asks for a different secondary order.
 The CSV writes a visible area separator row before each area. The XLSX and HTML
 use colored separator rows/headers.
 
-The export reads teams from `data/Trainers.c`. If a Pokemon has explicit
-`.moves = { ... }`, those moves are used. Otherwise, the tool fills the move
-slots from the last four level-up moves available in
-`data/learnsets/learnsets.json` at that Pokemon's level.
+The export reads teams, trainer classes, battle types, items, moves, and text
+from `data/Trainers.c`. If a Pokemon has explicit `.moves = { ... }`, those
+moves are used. Otherwise, the tool fills the move slots from the last four
+level-up moves available in `data/learnsets/learnsets.json` at that Pokemon's
+level.
 
 The CSV/XLSX include sprite URL and Google Sheets `IMAGE()` formula columns for
 official species. The card HTML renders those URLs directly. Custom species are
 left without sprite URLs until we add a local or hosted sprite source for them.
+
+Do not edit generated CSV/HTML/XLSX files by hand. Update `data/Trainers.c`,
+`documentation/touched_trainers.md`, or the exporter, then regenerate.

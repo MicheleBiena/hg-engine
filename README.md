@@ -7,6 +7,7 @@
 
 ## Table of Contents
 - [Features](#features)
+- [Local Shadows Of Time Documentation](#local-shadows-of-time-documentation)
 - [Setup Instructions (Linux with apt)](#setup-instructions-linux-with-apt)
 - [Setup Instructions (Linux with apk)](#setup-instructions-linux-with-apk)
 - [Setup Instructions (Linux with dnf or yum)](#setup-instructions-linux-with-dnf-or-yum)
@@ -40,6 +41,18 @@
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 
 If you are looking to contribute to hg-engine, please see the [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Local Shadows Of Time Documentation
+
+This checkout contains local project notes for the Shadows Of Time fork:
+
+- [LEFTOFF.md](LEFTOFF.md) is the current handoff file for future chats and merge
+  context.
+- [documentation/README.md](documentation/README.md) links the active local
+  workflow guides.
+- [documentation/custom_content.md](documentation/custom_content.md) explains how
+  to add Pokemon, forms, overworlds, encounters, Pokedex data, and trainers in the
+  merged C data layout.
 
 ## Setup Instructions (Linux with apt)
 1. In a Terminal window, run the following command:
@@ -176,7 +189,7 @@ You will still have to `make clean` and `make clean_code` manually when changing
     * Make sure to undo your changes to Terminal after you are done so it will run as a native arm64 application again (uncheck the checkbox from before).
 3. After the process completes, a new file will appear in the `hg-engine` folder named **test.nds**.
    * It is important to note that this alone will not add new Pokémon to the wild, trainers, etc...; it simply makes them available in your game. It is up to you to place them.
-   * You can edit various game data in the C data files, especially `data/Trainers.c`, `data/Species.c`, `data/Evolutions.c`, `data/Encounters.c`, `data/Headbutt.c`, `data/PokedexArea.c`, `data/FollowerProperties.c`, and `data/graphics/`. New Pokemon/forms should also keep their follower/overworld, Pokedex, sprite offset, icon palette, and evolution tables in sync; see `documentation/custom_content.md` for the local workflow and battle-only form padding rule.
+   * You can edit various game data in the C data files, especially `data/Trainers.c`, `data/Species.c`, `data/Evolutions.c`, `data/Encounters.c`, `data/Headbutt.c`, `data/PokedexArea.c`, `data/FollowerProperties.c`, and `data/graphics/`. New Pokemon/forms should also keep their follower/overworld, Pokedex, sprite offset, icon palette, and evolution tables in sync; see [documentation/custom_content.md](documentation/custom_content.md) for the local workflow, battle-only form padding rule, and DSPRE form notes.
 
 ## Updating Your Repository
 ### Normal Clone
