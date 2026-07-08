@@ -40,7 +40,7 @@ None
 {COLOR 255}Max Ethers{COLOR 0}
 {COLOR 255}Elixirs{COLOR 0}
 {COLOR 255}Max Elixirs{COLOR 0}
-{COLOR 255}Lava Cookies{COLOR 0}
+{COLOR 255}Sableye Gems{COLOR 0}
 {COLOR 255}cups of Berry Juice{COLOR 0}
 {COLOR 255}bags of Sacred Ash{COLOR 0}
 {COLOR 255}bottles of HP Up{COLOR 0}

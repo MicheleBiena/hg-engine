@@ -40,7 +40,7 @@ an {COLOR 255}Ether{COLOR 0}
 a {COLOR 255}Max Ether{COLOR 0}
 an {COLOR 255}Elixir{COLOR 0}
 a {COLOR 255}Max Elixir{COLOR 0}
-a {COLOR 255}Lava Cookie{COLOR 0}
+a {COLOR 255}Sableye Gem{COLOR 0}
 a {COLOR 255}Berry Juice{COLOR 0}
 a {COLOR 255}Sacred Ash{COLOR 0}
 an {COLOR 255}HP Up{COLOR 0}
