@@ -57801,6 +57801,45 @@ const SpriteFrameData __data[] = {
         .shadowXOffset = 3,
         .shadowSize = 1,
     },
+    [SPECIES_MEOWSTIC_SHADOW] = {
+        .frontHeader = {
+            .cryDelay = 0,
+            .animation = 2,
+            .animationDelay = 0,
+        },
+        .frontFrames = {
+                { .frameNo = 0, .duration = 4, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = 1, .duration = 10, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+        },
+        .backHeader = {
+            .cryDelay = 9,
+            .animation = 5,
+            .animationDelay = 11,
+        },
+        .backFrames = {
+                { .frameNo = 0, .duration = 11, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = 1, .duration = 15, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+        },
+        .spriteYOffset = -9,
+        .shadowXOffset = -2,
+        .shadowSize = 1,
+    },
 };
 
 u32 __size = sizeof(__data);

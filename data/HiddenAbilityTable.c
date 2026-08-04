@@ -1438,4 +1438,5 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_MEGA_BAXCALIBUR             ] = ABILITY_NONE,
     [SPECIES_SINFAE_SHADOW               ] = ABILITY_NONE,
     [SPECIES_KECLEON_ALT                 ] = ABILITY_NONE,
+    [SPECIES_MEOWSTIC_SHADOW             ] = ABILITY_PRANKSTER,
 };

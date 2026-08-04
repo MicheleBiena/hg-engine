@@ -1496,4 +1496,5 @@ const HeightTableEntry __data[] =
     [SPECIES_MEGA_BAXCALIBUR] = { 0, 0, 0, 0 },
     [SPECIES_SINFAE_SHADOW] = { 0, 0, 0, 0 },
     [SPECIES_KECLEON_ALT] = { 0, 0, 0, 0 },
+    [SPECIES_MEOWSTIC_SHADOW] = { -1, 0, -1, 0 },
 };

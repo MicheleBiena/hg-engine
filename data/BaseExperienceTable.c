@@ -1431,4 +1431,5 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_MEGA_BAXCALIBUR             ] = 300,
     [SPECIES_SINFAE_SHADOW               ] = 290,
     [SPECIES_KECLEON_ALT                 ] = 154,
+    [SPECIES_MEOWSTIC_SHADOW             ] = 163,
 };

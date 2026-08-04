@@ -1488,4 +1488,5 @@ u8 gIconPalTable[] = {
     [SPECIES_MEGA_BAXCALIBUR]                    = 0,
     [SPECIES_SINFAE_SHADOW               ] = 2,
     [SPECIES_KECLEON_ALT                 ] = 1,
+    [SPECIES_MEOWSTIC_SHADOW             ] = 0,
 };

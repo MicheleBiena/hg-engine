@@ -20734,4 +20734,18 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
         },
     },
 
+    [SPECIES_MEOWSTIC_SHADOW] = {
+        .entries = {
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_NONE, 0, SPECIES_NONE },
+        },
+    },
+
 };

@@ -1,6 +1,6 @@
 # Shadows Of Time hg-engine Leftoff
 
-Last updated: 2026-07-02
+Last updated: 2026-07-29
 
 This file is the handoff entry point for future chats and local work on this
 checkout. Start here, then follow the linked guides for details.
@@ -46,6 +46,12 @@ Current custom forms:
 
 - `SPECIES_SINFAE_SHADOW`: battle-only, no overworld, uses `NEEDS_REVERSION`.
 - `SPECIES_KECLEON_ALT`: persistent alternate form with overworld/follower.
+- `SPECIES_MEOWSTIC_SHADOW`: persistent male Meowstic shadow form with copied
+  Meowstic battle/OW assets. It is form 4 under `SPECIES_MEOWSTIC`; keep it
+  after female and mega forms so older form ids do not shift. Its
+  `meowstic_shadow/female/*.png` battle slots intentionally duplicate the male
+  sprites so summary/battle loaders cannot hit the empty vanilla Meowstic female
+  placeholders.
 
 Main guide:
 
@@ -70,6 +76,17 @@ python scripts/export_touched_trainers.py --formats csv html xlsx
 python scripts/export_touched_trainers.py --formats xlsx
 ```
 
+Merge caution: trainer text generation must keep one raw message entry per
+`TrainerMessageEntry`. `data/Trainers.c` C strings may contain real control
+characters, so `tools/source/trainerdatagen/trainer_data_gen.c` must write them
+escaped as `\n`, `\r`, and `\f` into `build/rawtext/728/*.txt`. If a merge
+regresses this, `msg_cat.py` splits one trainer text into several message-bank
+entries, all later trainer text ids shift, and pre-battle/post-battle/last-Pokemon
+dialogue appears to come from unrelated trainers. Quick sanity check after
+trainer text pipeline merges: `build/rawtext/728` file count should match
+`build/trainer_text_map/7_0` size divided by 4, and `build/rawtext/728.txt`
+should not gain extra physical lines from unescaped trainer text.
+
 ## DSPRE Notes
 
 - Use `test_DSPRE_contents\unpacked\eventFiles` for the current extracted event
@@ -82,6 +99,12 @@ python scripts/export_touched_trainers.py --formats xlsx
 
 ```c
 GivePokemon SPECIES_KECLEON 5 ITEM_NONE 1 0 32780
+```
+
+Meowstic Shadow is intentionally form 4:
+
+```c
+GivePokemon SPECIES_MEOWSTIC 30 ITEM_NONE 4 0 32780
 ```
 
 Do not use this pattern for normal `GivePokemon`:

@@ -1316,7 +1316,12 @@ u16 LONG_CALL get_mon_ow_tag(u16 species, u32 form, u32 isFemale)
         if (isFemale && form == 0 && formFemaleIndex & OW_FEMALE_MASK) {
             ret += (formFemaleIndex & (~OW_FEMALE_MASK)); // should be set to directly return female overworld returned from OverworldModelLookupHasFemaleForm
         } else if (form != 0) {
-            ret += (formFemaleIndex + form - 1);
+            u32 adjustedSpecies = GetSpeciesBasedOnForm(species, form);
+            if (adjustedSpecies == SPECIES_MEOWSTIC_SHADOW) {
+                ret += adjustedSpecies;
+            } else {
+                ret += (formFemaleIndex + form - 1);
+            }
         } else {
             ret += species;
         }

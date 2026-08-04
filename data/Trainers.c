@@ -10681,7 +10681,7 @@ const TrainerData sTrainerData[] = {
             .trainerClass = TRAINERCLASS_LEADER_BROCK,
             .items = { ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE },
             .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
-            .battleType = DOUBLE_BATTLE,
+            .battleType = NO_PARTNER_DOUBLE_BATTLE,
         },
         .party = {
             {
@@ -10722,7 +10722,7 @@ const TrainerData sTrainerData[] = {
                 .text = "Even weathered stone can still\nhold the line!\n",
             },
             {
-                .type = TRMSG_LOSE,
+                .type = TRMSG_DBL_LOSE_1,
                 .text = "So this is how an era changes...\nWonderful.\n",
             },
         },
@@ -10870,7 +10870,7 @@ const TrainerData sTrainerData[] = {
             .trainerClass = TRAINERCLASS_LEADER_ERIKA,
             .items = { ITEM_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE },
             .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
-            .battleType = DOUBLE_BATTLE,
+            .battleType = NO_PARTNER_DOUBLE_BATTLE,
         },
         .party = {
             {
@@ -10902,7 +10902,7 @@ const TrainerData sTrainerData[] = {
                 .text = "My, even Carnivine is wavering...\n",
             },
             {
-                .type = TRMSG_LOSE,
+                .type = TRMSG_DBL_LOSE_1,
                 .text = "Such a wonderful battle...\n",
             },
         },
@@ -31533,6 +31533,7 @@ const u16 sTrainerTextOrder[] = {
     490,
     491,
     498,
+    19,
     20,
     21,
     30,
@@ -31878,6 +31879,7 @@ const u16 sTrainerTextOrder[] = {
     206,
     363,
     486,
+    11,
     12,
     101,
     13,

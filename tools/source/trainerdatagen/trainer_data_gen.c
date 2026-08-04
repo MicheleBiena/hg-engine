@@ -136,13 +136,37 @@ static void WriteTrainerNameTextFile(const char *dir, int index, const char *nam
     fclose(file);
 }
 
+static void WriteEscapedRawText(FILE *file, const char *text) {
+    const unsigned char *p;
+
+    for (p = (const unsigned char *)text; *p != '\0'; p++) {
+        switch (*p) {
+        case '\n':
+            fputs("\\n", file);
+            break;
+        case '\r':
+            fputs("\\r", file);
+            break;
+        case '\f':
+            fputs("\\f", file);
+            break;
+        case '\t':
+            fputs("\\t", file);
+            break;
+        default:
+            fputc(*p, file);
+            break;
+        }
+    }
+}
+
 static void WriteTextFile(const char *dir, int index, const char *text) {
     char path[RAWTEXT_PATH_LENGTH];
     FILE *file;
 
     BuildRawTextPath(path, sizeof(path), dir, index);
     file = OpenTextForWrite(path);
-    fputs(text, file);
+    WriteEscapedRawText(file, text);
     fclose(file);
 }
 
