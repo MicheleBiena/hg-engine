@@ -1,32 +1,33 @@
-#include "../../include/battle.h"
-#include "../../include/battle_controller_player.h"
-#include "../../include/config.h"
-#include "../../include/constants/battle_message_constants.h"
-#include "../../include/constants/battle_script_constants.h"
-#include "../../include/constants/move_effects.h"
-#include "../../include/constants/hold_item_effects.h"
-#include "../../include/constants/file.h"
+#include "battle.h"
+#include "battle_controller_player.h"
+#include "config.h"
+#include "constants/battle_message_constants.h"
+#include "constants/battle_script_constants.h"
+#include "constants/move_effects.h"
+#include "constants/hold_item_effects.h"
+#include "constants/file.h"
+#include "constants/item.h"
 
 #ifdef DEBUG_BATTLE_SCENARIOS
-#include "../../include/test_battle.h"
+#include "test_battle.h"
 #endif // DEBUG_BATTLE_SCENARIOS
 
 #if defined (DISABLE_ITEMS_IN_TRAINER_BATTLE)
 void overrideItemUsage(struct BattleSystem *bsys, struct BattleStruct *ctx)
 {
-    BattleMessage mp;
+    BattleMessage msg;
     int battlerId;
     u32 fight_type = BattleTypeGet(bsys);
 
     for (battlerId = 0; battlerId < bsys->maxBattlers; battlerId++)
     {
-        if (ctx->playerActions[battlerId][0] == CONTROLLER_COMMAND_ITEM_INPUT && ctx->com_seq_no[battlerId] == 7)
+        if (ctx->playerActions[battlerId][0] == CONTROLLER_COMMAND_ITEM_INPUT && ctx->com_seq_no[battlerId] == SSI_STATE_7)
         {
             if (fight_type & BATTLE_TYPE_TRAINER)
             {
-                mp.id = BATTLE_MSG_ITEMS_CANT_BE_USED_HERE; //msg.id  = msg_0197_00593; // Items can't be used here
-                mp.tag = TAG_NONE;
-                ov12_022639B8(bsys, battlerId, mp);
+                msg.id = BATTLE_MSG_ITEMS_CANT_BE_USED_HERE; //msg.id  = msg_0197_00593; // Items can't be used here
+                msg.tag = TAG_NONE;
+                ov12_022639B8(bsys, battlerId, msg);
                 ctx->com_seq_no[battlerId] = SSI_STATE_15;
                 ctx->ret_seq_no[battlerId] = SSI_STATE_SELECT_COMMAND_INIT;
             }
@@ -34,6 +35,31 @@ void overrideItemUsage(struct BattleSystem *bsys, struct BattleStruct *ctx)
     }
 }
 #endif
+
+void overrideRunButton(struct BattleSystem *bsys, struct BattleStruct *ctx)
+{
+    BattleMessage msg;
+    int battlerId;
+    u32 fight_type = BattleTypeGet(bsys);
+
+    for (battlerId = 0; battlerId < bsys->maxBattlers; battlerId++)
+    {
+        if (ctx->playerActions[battlerId][0] == CONTROLLER_COMMAND_RUN_INPUT)
+        {
+            if (ctx->com_seq_no[battlerId] == SSI_STATE_11)
+            {
+                if (fight_type & BATTLE_TYPE_TOTEM)
+                {
+                    msg.id = BATTLE_MSG_CANT_FLEE_THIS_FIGHT; // Can't flee this fight!
+                    msg.tag = TAG_NONE;
+                    ov12_022639B8(bsys, battlerId, msg);
+                    ctx->com_seq_no[battlerId] = SSI_STATE_15;
+                    ctx->ret_seq_no[battlerId] = SSI_STATE_SELECT_COMMAND_INIT;
+                }
+            }
+        }
+    }
+}
 
 BOOL LONG_CALL BattleContext_Main(struct BattleSystem *bsys, struct BattleStruct *ctx)
 {
@@ -93,6 +119,7 @@ BOOL LONG_CALL BattleContext_Main(struct BattleSystem *bsys, struct BattleStruct
 #if defined (DISABLE_ITEMS_IN_TRAINER_BATTLE)
     overrideItemUsage(bsys, ctx);
 #endif
+    overrideRunButton(bsys, ctx);
 
     if (ctx->server_seq_no == CONTROLLER_COMMAND_45)
     {
@@ -138,7 +165,7 @@ BOOL LONG_CALL BattleContext_ShouldPrintFollowupMessage(struct BattleSystem *bat
     }
 
     if (ret == TRUE && !(ctx->server_status_flag & SERVER_STATUS_FLAG_SIMULTANEOUS_DAMAGE)) {
-        LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_MOVE_FOLLOWUP_MESSAGE);
+        LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_MOVE_FOLLOWUP_MESSAGE);
         ctx->next_server_seq_no  = ctx->server_seq_no;
         ctx->server_seq_no  = CONTROLLER_COMMAND_RUN_SCRIPT;
     }
@@ -238,7 +265,7 @@ void LONG_CALL ov12_0224DD74(struct BattleSystem *bsys UNUSED, struct BattleStru
                 ctx->waza_no_last = MOVE_NONE;
             }
 
-            if (ctx->server_status_flag2 & BATTLE_STATUS2_MOVE_SUCCEEDED && !(ctx->waza_status_flag & MOVE_STATUS_FLAG_FAILED))
+            if (ctx->server_status_flag2 & BATTLE_STATUS2_MOVE_SUCCEEDED && !(ctx->waza_status_flag & MOVE_STATUS_FAILED))
             {
                 switch (ctx->aiWorkTable.old_moveTbl[ctx->current_move_index].target)
                 {

@@ -1,6 +1,6 @@
 # Shadows Of Time hg-engine Leftoff
 
-Last updated: 2026-07-29
+Last updated: 2026-08-06
 
 This file is the handoff entry point for future chats and local work on this
 checkout. Start here, then follow the linked guides for details.
@@ -12,10 +12,12 @@ checkout. Start here, then follow the linked guides for details.
 - Latest local commit: `59f50475a Merge upstream hg-engine updates`
 - Upstream merged: `BluRosie/hg-engine` `upstream/main` at `3eb5838b6`
 - Merge status: completed; no Git conflicts remain.
-- Build status: Michele ran `make` successfully after the merge.
-- Runtime smoke tests: game boots, converted overworld event entries open in DSPRE,
-  Vivillon Garden overworld is visible, and Kecleon Alt party/follower behavior was
-  confirmed in game.
+- Build status: Michele ran `make clean`/`make -j12` successfully after the
+  merge.
+- Runtime smoke tests: game boots, converted overworld event entries open in
+  DSPRE, Vivillon Garden overworld is visible, Kecleon Alt party/follower behavior
+  was confirmed in game, and matrix 0 outdoor maps load after restoring
+  `MON_OVERWORLD_TAG_START` to `1050`.
 
 ## Important Local Decisions
 
@@ -27,6 +29,10 @@ checkout. Start here, then follow the linked guides for details.
   source history and should be treated as ROM-editing artifacts, not source code.
 - Custom follower overworlds use species-folder assets and
   `MON_FOLLOWER_ENTRY(...)` in `src/field/overworld_table.c`.
+- Keep `MON_OVERWORLD_TAG_START` at `1050`. Upstream changed it to `2500`, but
+  that black-screened on entry to matrix 0/outdoor maps in this project, likely
+  because existing DSPRE overworld references still depend on the old follower
+  tag range.
 - Battle-only forms with no overworld must be listed in
   `data/graphics/no_overworld_forms.txt` so generated pokemon overworld IDs stay
   aligned.

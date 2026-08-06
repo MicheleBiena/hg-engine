@@ -1,21 +1,21 @@
-#include "../../include/types.h"
-#include "../../include/bag.h"
-#include "../../include/battle.h"
-#include "../../include/config.h"
-#include "../../include/debug.h"
-#include "../../include/overlay.h"
-#include "../../include/pokemon.h"
-#include "../../include/rtc.h"
-#include "../../include/save.h"
-#include "../../include/script.h"
-#include "../../include/constants/ability.h"
-#include "../../include/constants/file.h"
-#include "../../include/constants/game.h"
-#include "../../include/constants/hold_item_effects.h"
-#include "../../include/constants/item.h"
-#include "../../include/constants/moves.h"
-#include "../../include/constants/species.h"
-#include "../../include/constants/weather_numbers.h"
+#include "types.h"
+#include "bag.h"
+#include "battle.h"
+#include "config.h"
+#include "debug.h"
+#include "overlay.h"
+#include "pokemon.h"
+#include "rtc.h"
+#include "save.h"
+#include "script.h"
+#include "constants/ability.h"
+#include "constants/file.h"
+#include "constants/game.h"
+#include "constants/hold_item_effects.h"
+#include "constants/item.h"
+#include "constants/moves.h"
+#include "constants/species.h"
+#include "constants/weather_numbers.h"
 
 // top 5 bits are now form bit
 // if the form is nonzero, have to set it to that form.  most mons should keep their forms on evolution, but specifically significant gendered mons will need to not
@@ -73,7 +73,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     species = PokeOtherFormMonsNoGet(species, form); // factor in form into species to cover shit like galarian corsola + cap pikachu that can't evolve
 
     evoTable = sys_AllocMemory(3, MAX_EVOS_PER_POKE * sizeof(struct Evolution));
-    ArchiveDataLoad(evoTable, ARC_EVOLUTIONS, species);
+    ReadWholeNarcMemberByIdPair(evoTable, ARC_EVOLUTIONS, species);
 
     switch (context) {
     case EVOCTX_LEVELUP:
