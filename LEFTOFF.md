@@ -1,6 +1,6 @@
 # Shadows Of Time hg-engine Leftoff
 
-Last updated: 2026-08-06
+Last updated: 2026-08-31
 
 This file is the handoff entry point for future chats and local work on this
 checkout. Start here, then follow the linked guides for details.
@@ -9,14 +9,15 @@ checkout. Start here, then follow the linked guides for details.
 
 - Repository: `C:\Users\Michele\Documents\hg-engine\Shadows Of Time\rework\CLEAN\hg-engine`
 - Branch: `main`
-- Latest local commit: `59f50475a Merge upstream hg-engine updates`
-- Upstream merged: `BluRosie/hg-engine` `upstream/main` at `3eb5838b6`
-- Merge status: completed; no Git conflicts remain.
-- Build status: Michele ran `make clean`/`make -j12` successfully after the
-  merge.
-- Runtime smoke tests: game boots, converted overworld event entries open in
-  DSPRE, Vivillon Garden overworld is visible, Kecleon Alt party/follower behavior
-  was confirmed in game, and matrix 0 outdoor maps load after restoring
+- Latest local commit: 2026-08-31 upstream merge commit; use `git log -1` for
+  the exact hash.
+- Upstream merged: `BluRosie/hg-engine` `upstream/main` at `dacca858e`.
+- Merge status: completed locally; no Git conflicts remain.
+- Build status: not run by Codex for the 2026-08-31 merge. Michele should run
+  `make clean`/`make -j12`.
+- Runtime smoke tests: pending for the 2026-08-31 merge. Previous smoke tests
+  confirmed boot, DSPRE event entries, Vivillon Garden overworld, Kecleon Alt
+  party/follower behavior, and matrix 0 outdoor maps after restoring
   `MON_OVERWORLD_TAG_START` to `1050`.
 
 ## Important Local Decisions
@@ -33,6 +34,12 @@ checkout. Start here, then follow the linked guides for details.
   that black-screened on entry to matrix 0/outdoor maps in this project, likely
   because existing DSPRE overworld references still depend on the old follower
   tag range.
+- During the 2026-08-31 upstream merge, conflicts in `hooks`,
+  `include/constants/pokemon.h`, `include/constants/species.h`, and
+  `src/field/overworld_table.c` were resolved by keeping the local follower tag
+  base, keeping all custom species/forms, accepting upstream's roamer guard
+  closure, and reinserting custom follower entries before the overworld table
+  terminator.
 - Battle-only forms with no overworld must be listed in
   `data/graphics/no_overworld_forms.txt` so generated pokemon overworld IDs stay
   aligned.
